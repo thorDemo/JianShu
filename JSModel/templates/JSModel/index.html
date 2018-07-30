@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)https://www.jianshu.com/ -->
+<html><!--<![endif]-->
+<head>
+    {% load static %}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <!-- Start of Baidu Transcode -->
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="mobile-agent" content="format=html5;url=https:///">
+    <!-- End of Baidu Transcode -->
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <meta name="360-site-verification" content="">
+    <meta property="wb:webmaster" content="294ec9de89e7fadb">
+    <meta property="qc:admins" content="104102651453316562112116375">
+    <meta property="qc:admins" content="11635613706305617">
+    <meta property="qc:admins" content="1163561616621163056375">
+    <meta name="google-site-verification" content="">
+    <meta name="google-site-verification" content="">
+
+    <!-- Apple -->
+    <meta name="apple-mobile-web-app-title" content="简书">
+    <title>简书 - 创作你的创作</title>
+    <meta name="csrf-param" content="">
+    <meta name="csrf-token" content="">
+    <link rel="stylesheet" media="all" href="{% static 'css/web.css' %}">
+    <link rel="stylesheet" media="all" href="{% static 'css/entry.css' %}">
+    <link href="{% static 'img/shortcut.ico' %}" rel="shortcut icon" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_57x57.png' %}" sizes="57x57">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_72x72.png' %}" sizes="72x72">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_76x76.png' %}" sizes="76x76">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_114x114.png' %}" sizes="114x114">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_120x120.png' %}" sizes="120x120">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_152x152.png' %}" sizes="152x152">
+
+  <!-- Start of 访问统计 -->
+
+  <!-- End of 访问统计 -->
+</head>
+<body lang="zh-CN" class="reader-black-font">
+    <!-- 全局顶部导航栏 -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="width-limit">
+        <!-- 左上方 Logo -->
+            <a class="logo" href="#"><img src="{% static 'img/nav-logo-left-top.png' %}" alt="Nav logo"></a>
+        <!-- 右上角 -->
+            <!-- 未登录显示登录/注册/写文章 -->
+            <a class="btn write-btn" target="_blank" href="#">
+                <i class="iconfont ic-write"></i>写文章
+            </a>
+            <a class="btn sign-up" href="#">注册</a>
+            <a class="btn log-in" href="#">登录</a>
+        <!-- 如果用户登录，显示下拉菜单 -->
+
+            <div class="style-mode"><a class="style-mode-btn"><i class="iconfont ic-navigation-mode"></i></a>
+                <div class="popover-modal" style="left: 0; display: none;">
+                    <div class="meta"><i class="iconfont ic-navigation-night"></i><span>夜间模式</span></div>
+                    <div class="switch day-night-group"><a class="switch-btn">开</a> <a class="switch-btn active">关</a>
+                    </div>
+                    <hr>
+                    <div class="switch font-family-group"><a class="switch-btn font-song">宋体</a> <a
+                            class="switch-btn font-hei active">黑体</a></div>
+                    <div class="switch"><a class="switch-btn active">简</a> <a class="switch-btn">繁</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container index">
+        <div class="row">
+            <div class="col-xs-16 main">
+                <!-- Banner -->
+                <!-- 轮播 start -->
+                <div id="indexCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item">
+                            <div class="banner" data-banner-name="快速提高职场竞争力，高效办公有窍门">
+                                <a target="_blank" href="#"><img src="{% static 'img/banner1.jpg' %}" alt="540"></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="banner" data-banner-name="《星星自传》第三期 | 我和童话有个约会-寻麦">
+                                <a target="_blank" href="#"><img src="{% static 'img/banner2.jpg' %}" alt="540"></a>
+                            </div>
+                        </div>
+                        <div class="item active">
+                            <div class="banner" data-banner-name="简书×腾讯夏日电影野餐周">
+                                <a target="_blank" href="#"><img src="{% static 'img/banner3.jpg' %}" alt="540"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#indexCarousel" data-slide-to="0" class=""></li>
+                        <li data-target="#indexCarousel" data-slide-to="1" class=""></li>
+                        <li data-target="#indexCarousel" data-slide-to="2" class="active"></li>
+                    </ol>
+                    <a class="left carousel-control" href="#" role="button" data-slide="prev"><i
+                            class="iconfont ic-previous-s"></i></a>
+                    <a class="right carousel-control" href="#" role="button" data-slide="next"><i
+                            class="iconfont ic-next-s"></i></a>
+                </div>
+                <!-- 轮播 stop-->
+
+                <!-- 栏目列表 start-->
+                <div class="recommend-collection">
+                    <a class="collection" target="_blank" href="#">
+                        <img src="{% static 'img/man-hands-reading-boy-large.jpg' %}" alt="64">
+                        <div class="name">社会热点</div>
+                    </a>
+                    <a class="collection" target="_blank" href="#">
+                        <img src="{% static 'img/sy_20091020135145113016.jpg' %}" alt="64">
+                        <div class="name">读书</div>
+                    </a>
+                    <a class="collection" target="_blank" href="#">
+                        <img src="{% static 'img/51164a1egd7b1a4a7c491_690.jpg' %}" alt="64">
+                        <div class="name">人文社科</div>
+                    </a>
+                    <a class="collection" target="_blank" href="#">
+                        <img src="{% static 'img/12.jpg' %}" alt="64">
+                        <div class="name">自然科普</div>
+                    </a>
+                    <a class="collection" target="_blank" href="#">
+                        <img src="{% static 'img/1.jpg' %}" alt="64">
+                        <div class="name">故事</div>
+                    </a>
+                    <a class="collection" target="_blank" href="#">
+                        <img src="{% static 'img/漫画专题.jpg' %}" alt="64">
+                        <div class="name">手绘</div>
+                    </a>
+                    <a class="collection" target="_blank" href="#">
+                        <img src="{% static 'img/啊.png' %}" alt="64">
+                        <div class="name">旅行·在路上</div>
+                    </a>
+                    <a class="more-hot-collection" target="_blank" href="#">
+                        更多热门专题 <i class="iconfont ic-link"></i>
+                    </a>
+                </div>
+                <!-- 栏目列表 stop-->
+                <div class="split-line"></div>
+                <div id="list-container">
+                    <!-- 文章列表模块 -->
+                    <ul class="note-list" >
+                        <li id="" data-note-id="" class="have-img">
+                            <a class="wrap-img" href="#" target="_blank">
+                                <img data-echo="" class="img-blur" src="{% static 'img/page-list-img-01.jpeg' %}" alt="120">
+                            </a>
+                            <div class="content">
+                                <a class="title" target="_blank" href="#">感情这件小事儿，好像永远都是谁先认真谁就输了</a>
+                                <p class="abstract">
+                                    小米是我的大学死党，她这个人要外貌有外貌，要才华有才华，最重要的是家庭条件特别优越。大学四年，她的专业课全部都是优，各类奖学金拿到手软，这样...
+                                </p>
+                                <div class="meta">
+                                    <a class="nickname" target="_blank" href="#">苏景语</a>
+                                    <a target="_blank" href="#">
+                                        <i class="iconfont ic-list-comments"></i> 2
+                                    </a>
+                                    <span><i class="iconfont ic-list-like"></i> 425</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="note-list" >
+                        <li id="" data-note-id="" class="have-img">
+                            <a class="wrap-img" href="#" target="_blank">
+                                <img data-echo="" class="img-blur" src="{% static 'img/page-list-img-01.jpeg' %}" alt="120">
+                            </a>
+                            <div class="content">
+                                <a class="title" target="_blank" href="#">感情这件小事儿，好像永远都是谁先认真谁就输了</a>
+                                <p class="abstract">
+                                    小米是我的大学死党，她这个人要外貌有外貌，要才华有才华，最重要的是家庭条件特别优越。大学四年，她的专业课全部都是优，各类奖学金拿到手软，这样...
+                                </p>
+                                <div class="meta">
+                                    <a class="nickname" target="_blank" href="#">苏景语</a>
+                                    <a target="_blank" href="#">
+                                        <i class="iconfont ic-list-comments"></i> 2
+                                    </a>
+                                    <span><i class="iconfont ic-list-like"></i> 425</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="note-list" >
+                        <li id="" data-note-id="" class="have-img">
+                            <a class="wrap-img" href="#" target="_blank">
+                                <img data-echo="" class="img-blur" src="{% static 'img/page-list-img-01.jpeg' %}" alt="120">
+                            </a>
+                            <div class="content">
+                                <a class="title" target="_blank" href="#">感情这件小事儿，好像永远都是谁先认真谁就输了</a>
+                                <p class="abstract">
+                                    小米是我的大学死党，她这个人要外貌有外貌，要才华有才华，最重要的是家庭条件特别优越。大学四年，她的专业课全部都是优，各类奖学金拿到手软，这样...
+                                </p>
+                                <div class="meta">
+                                    <a class="nickname" target="_blank" href="#">苏景语</a>
+                                    <a target="_blank" href="#">
+                                        <i class="iconfont ic-list-comments"></i> 2
+                                    </a>
+                                    <span><i class="iconfont ic-list-like"></i> 425</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- 文章列表模块 -->
+                </div>
+            </div>
+            <!-- 列表页推荐 -->
+            <div class="col-xs-7 col-xs-offset-1 aside">
+                <div class="board">
+                    <a target="_blank" href="#"><img src="{% static 'img/banner-s-3.png' %}" alt="Banner s 3"></a>
+                    <a target="_blank" href="#"><img src="{% static 'img/banner-s-4.png' %}" alt="Banner s 4"></a>
+                    <a target="_blank" href="#"><img src="{% static 'img/banner-s-7.png' %}" alt="Banner s 7"></a>
+                    <a target="_blank" href="#"><img src="{% static 'img/banner-s-5.png' %}" alt="Banner s 5"></a>
+                    <a target="_blank" href="#"><img src="{% static 'img/banner-s-6.png' %}" alt="Banner s 6"></a>
+                </div>
+                <!-- 首页右侧 App 下载提示 -->
+                <a id="index-aside-download-qrbox" class="col-xs-8 download" data-toggle="popover" data-placement="top"
+                   data-html="true" data-trigger="hover" data-content="" href="">
+                    <img class="qrcode" src="{% static 'img/download-index-side-qrcode.png' %}" alt="Download index side qrcode">
+                    <div class="info">
+                        <div class="title">下载简书手机App<i class="iconfont ic-link"></i></div>
+                        <div class="description">随时随地发现和创作内容</div>
+                    </div>
+                </a>
+                <!-- 推荐作者 -->
+                <div class="recommended-authors">
+                    <div class="title"><span>推荐作者</span>
+                        <a class="page-change">
+                            <i class="iconfont ic-search-change" style="transform: rotate(0deg);"></i>换一批
+                        </a>
+                    </div>
+                    <ul class="list">
+{#                        {% for line in author %}#}
+                        <li>
+                            <a href="#" target="_blank" class="avatar">
+                                <img src="{% static 'img/author-1.jpg' %}">
+                            </a>
+                            <a class="follow" >
+                                <i class="iconfont ic-follow"></i>关注
+                            </a>
+                            <a href="#" target="_blank" class="name">乔汉童</a>
+                            <p>写了467.4k字 · 1.1k喜欢</p>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="avatar">
+                                <img src="{% static 'img/author-2.jpg' %}"></a>
+                            <a class="follow" >
+                                <i class="iconfont ic-follow"></i>关注
+                            </a>
+                            <a href="#" target="_blank" class="name">满航</a>
+                            <p>写了343.9k字 · 2.7k喜欢</p>
+                        </li>
+{#                        {% endfor %}#}
+                    </ul>
+                    <a href="#" target="_blank" class="find-more">查看全部<i class="iconfont ic-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="side-tool">
+        <ul>
+            <li data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="回到顶部"
+                style="display: none;"><a class="function-button"><i class="iconfont ic-backtop"></i></a>
+            </li> <!----><!----> <!----> <!----> <!---->
+        </ul>
+    </div>
+    <footer class="container">
+        <div class="row">
+            <div class="col-xs-17 main">
+                <a target="_blank" href="#">关于简书</a><em> · </em>
+                <a target="_blank" href="#">联系我们</a><em> · </em>
+                <a target="_blank" href="#">加入我们</a><em> · </em>
+                <a target="_blank" href="#">简书出版</a><em> · </em>
+                <a target="_blank" href="#">品牌与徽标</a><em> · </em>
+                <a target="_blank" href="#">帮助中心</a><em> · </em>
+                <a target="_blank" href="#">合作伙伴</a>
+                <div class="icp">©2012-2018 上海xx信息科技有限公司 / 简书 / 沪ICP备00000000号-5 /
+                    <a target="_blank" href="#">
+                        <img src="{% static 'img/smrz-557fa318122c99a66523209bf9753a27.png' %}" alt="Smrz">
+                    </a>
+                    <a target="_blank" href="#">沪公网安备00000000000号 / </a>
+                    <a target="_blank" href="#">
+                        <img src="{% static 'img/wxb-a216456895eb66c17497dbd3da443cf8.png' %}" alt="Wxb">
+                    </a> 举报电话：021-34770013 /
+                    <a target="_blank" href="#">
+                        <img src="{% static 'img/zggsrz-5695587dccf490ca3e651f4228f7479e.png' %}" alt="Zggsrz">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
