@@ -6,7 +6,7 @@ from .models import NewsArticle, ListArticle
 
 
 def index(request):
-    url1 = request.GET.urlencode()
+    url1 = request.build_absolute_uri()
     print(url1)
     new_article = NewsArticle.objects.order_by('-create_time')[:4]
     template = loader.get_template('JSModel/index.html')
