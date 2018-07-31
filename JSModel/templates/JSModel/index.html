@@ -16,13 +16,10 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-    <meta name="360-site-verification" content="">
     <meta property="wb:webmaster" content="294ec9de89e7fadb">
     <meta property="qc:admins" content="104102651453316562112116375">
     <meta property="qc:admins" content="11635613706305617">
     <meta property="qc:admins" content="1163561616621163056375">
-    <meta name="google-site-verification" content="">
-    <meta name="google-site-verification" content="">
 
     <!-- Apple -->
     <meta name="apple-mobile-web-app-title" content="简书">
@@ -45,33 +42,7 @@
 </head>
 <body lang="zh-CN" class="reader-black-font">
     <!-- 全局顶部导航栏 -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="width-limit">
-        <!-- 左上方 Logo -->
-            <a class="logo" href="#"><img src="{% static 'img/nav-logo-left-top.png' %}" alt="Nav logo"></a>
-        <!-- 右上角 -->
-            <!-- 未登录显示登录/注册/写文章 -->
-            <a class="btn write-btn" target="_blank" href="#">
-                <i class="iconfont ic-write"></i>写文章
-            </a>
-            <a class="btn sign-up" href="#">注册</a>
-            <a class="btn log-in" href="#">登录</a>
-        <!-- 如果用户登录，显示下拉菜单 -->
-
-            <div class="style-mode"><a class="style-mode-btn"><i class="iconfont ic-navigation-mode"></i></a>
-                <div class="popover-modal" style="left: 0; display: none;">
-                    <div class="meta"><i class="iconfont ic-navigation-night"></i><span>夜间模式</span></div>
-                    <div class="switch day-night-group"><a class="switch-btn">开</a> <a class="switch-btn active">关</a>
-                    </div>
-                    <hr>
-                    <div class="switch font-family-group"><a class="switch-btn font-song">宋体</a> <a
-                            class="switch-btn font-hei active">黑体</a></div>
-                    <div class="switch"><a class="switch-btn active">简</a> <a class="switch-btn">繁</a></div>
-                </div>
-            </div>
-        </div>
-    </nav>
-    
+    {% include 'JSModel/header.html' %}
     <div class="container index">
         <div class="row">
             <div class="col-xs-16 main">
@@ -109,35 +80,13 @@
 
                 <!-- 栏目列表 start-->
                 <div class="recommend-collection">
-                    <a class="collection" target="_blank" href="#">
-                        <img src="{% static 'img/man-hands-reading-boy-large.jpg' %}" alt="64">
-                        <div class="name">社会热点</div>
+                    {% for line in list_article %}
+                    <a class="collection" target="_blank" href="{{ line.list_url }}">
+                        <img src="static/img/{{ line.list_img }}" alt="64">
+                        <div class="name">{{ line.list_name }}</div>
                     </a>
-                    <a class="collection" target="_blank" href="#">
-                        <img src="{% static 'img/sy_20091020135145113016.jpg' %}" alt="64">
-                        <div class="name">读书</div>
-                    </a>
-                    <a class="collection" target="_blank" href="#">
-                        <img src="{% static 'img/51164a1egd7b1a4a7c491_690.jpg' %}" alt="64">
-                        <div class="name">人文社科</div>
-                    </a>
-                    <a class="collection" target="_blank" href="#">
-                        <img src="{% static 'img/12.jpg' %}" alt="64">
-                        <div class="name">自然科普</div>
-                    </a>
-                    <a class="collection" target="_blank" href="#">
-                        <img src="{% static 'img/1.jpg' %}" alt="64">
-                        <div class="name">故事</div>
-                    </a>
-                    <a class="collection" target="_blank" href="#">
-                        <img src="{% static 'img/漫画专题.jpg' %}" alt="64">
-                        <div class="name">手绘</div>
-                    </a>
-                    <a class="collection" target="_blank" href="#">
-                        <img src="{% static 'img/啊.png' %}" alt="64">
-                        <div class="name">旅行·在路上</div>
-                    </a>
-                    <a class="more-hot-collection" target="_blank" href="#">
+                    {% endfor %}
+                    <a class="more-hot-collection" target="_blank" href="/list/">
                         更多热门专题 <i class="iconfont ic-link"></i>
                     </a>
                 </div>
@@ -145,69 +94,32 @@
                 <div class="split-line"></div>
                 <div id="list-container">
                     <!-- 文章列表模块 -->
-                    <ul class="note-list" >
-                        <li id="" data-note-id="" class="have-img">
-                            <a class="wrap-img" href="#" target="_blank">
-                                <img data-echo="" class="img-blur" src="{% static 'img/page-list-img-01.jpeg' %}" alt="120">
-                            </a>
-                            <div class="content">
-                                <a class="title" target="_blank" href="#">感情这件小事儿，好像永远都是谁先认真谁就输了</a>
-                                <p class="abstract">
-                                    小米是我的大学死党，她这个人要外貌有外貌，要才华有才华，最重要的是家庭条件特别优越。大学四年，她的专业课全部都是优，各类奖学金拿到手软，这样...
-                                </p>
-                                <div class="meta">
-                                    <a class="nickname" target="_blank" href="#">苏景语</a>
-                                    <a target="_blank" href="#">
-                                        <i class="iconfont ic-list-comments"></i> 2
-                                    </a>
-                                    <span><i class="iconfont ic-list-like"></i> 425</span>
+                {% if new_article %}
+                    {% for page in new_article %}
+                        <ul class="note-list" >
+                            <li id="" data-note-id="" class="have-img">
+                                <a class="wrap-img" href="{{ page.url }}" target="_blank">
+                                    <img data-echo="" class="img-blur" src="{% static 'img' %}/{{ page.img.0 }}" alt="120">
+                                </a>
+                                <div class="content">
+                                    <a class="title" target="_blank" href="{{ page.url }}">{{ page.title }}</a>
+                                    <p class="abstract">
+                                        {{ page.description }}
+                                    </p>
+                                    <div class="meta">
+                                        <a class="nickname" target="_blank" href="{{ page.url }}">{{ page.author }}</a>
+                                        <a target="_blank" href="{{ page.url }}">
+                                            <i class="iconfont ic-list-comments"></i> {{ page.comment }}
+                                        </a>
+                                        <span><i class="iconfont ic-list-like"></i> {{ page.like }}</span>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <ul class="note-list" >
-                        <li id="" data-note-id="" class="have-img">
-                            <a class="wrap-img" href="#" target="_blank">
-                                <img data-echo="" class="img-blur" src="{% static 'img/page-list-img-01.jpeg' %}" alt="120">
-                            </a>
-                            <div class="content">
-                                <a class="title" target="_blank" href="#">感情这件小事儿，好像永远都是谁先认真谁就输了</a>
-                                <p class="abstract">
-                                    小米是我的大学死党，她这个人要外貌有外貌，要才华有才华，最重要的是家庭条件特别优越。大学四年，她的专业课全部都是优，各类奖学金拿到手软，这样...
-                                </p>
-                                <div class="meta">
-                                    <a class="nickname" target="_blank" href="#">苏景语</a>
-                                    <a target="_blank" href="#">
-                                        <i class="iconfont ic-list-comments"></i> 2
-                                    </a>
-                                    <span><i class="iconfont ic-list-like"></i> 425</span>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <ul class="note-list" >
-                        <li id="" data-note-id="" class="have-img">
-                            <a class="wrap-img" href="#" target="_blank">
-                                <img data-echo="" class="img-blur" src="{% static 'img/page-list-img-01.jpeg' %}" alt="120">
-                            </a>
-                            <div class="content">
-                                <a class="title" target="_blank" href="#">感情这件小事儿，好像永远都是谁先认真谁就输了</a>
-                                <p class="abstract">
-                                    小米是我的大学死党，她这个人要外貌有外貌，要才华有才华，最重要的是家庭条件特别优越。大学四年，她的专业课全部都是优，各类奖学金拿到手软，这样...
-                                </p>
-                                <div class="meta">
-                                    <a class="nickname" target="_blank" href="#">苏景语</a>
-                                    <a target="_blank" href="#">
-                                        <i class="iconfont ic-list-comments"></i> 2
-                                    </a>
-                                    <span><i class="iconfont ic-list-like"></i> 425</span>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
+                            </li>
+                        </ul>
+                    {% endfor %}
+                {% else %}
+                    <p>No new_article are available.</p>
+                {% endif %}
                     <!-- 文章列表模块 -->
                 </div>
             </div>
@@ -237,7 +149,7 @@
                         </a>
                     </div>
                     <ul class="list">
-{#                        {% for line in author %}#}
+
                         <li>
                             <a href="#" target="_blank" class="avatar">
                                 <img src="{% static 'img/author-1.jpg' %}">
@@ -257,7 +169,7 @@
                             <a href="#" target="_blank" class="name">满航</a>
                             <p>写了343.9k字 · 2.7k喜欢</p>
                         </li>
-{#                        {% endfor %}#}
+
                     </ul>
                     <a href="#" target="_blank" class="find-more">查看全部<i class="iconfont ic-link"></i></a>
                 </div>
