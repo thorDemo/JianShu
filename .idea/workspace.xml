@@ -2,89 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5805b40-8ebb-46d0-ab5f-997a709a5e90" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/show_img.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-7fb4c1aebb52435f09b0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-b92af14ed8ebe3efb6ff.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/web-2b26d78a4d3c053b7b1c.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/0523f2d4-47a4-444f-948e-06e3e8eb115b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/068fc84b-f66d-4f4e-a94d-c61c5359287a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/0b444f3a9032.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/0e79cac4-7f48-4223-99ea-4e314236afbb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/10144866-6f7d3f9d5be297a6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/10453543-e48fe6f681c5d81d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/11-4d7c6ca89f439111aff57b23be1c73ba.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/11588474-244c476288a1edc3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/12200705-855e43bb368cdd07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1264672-accc60166a5c3137.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/12881639-69aa6c394310e8c8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/15-a7ac401939dd4df837e3bbf82abaa2a8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/18720e36-b768-4b3f-b14f-8631046ef598.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/2009031609140019346.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/2216003-17cbf3a8ba9681ce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/22d8d123-271c-4d80-9c59-6990844a9e37" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/244457d8-e2d7-4a9d-b359-264cbd522e42" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/2a4b2f2b-e68a-405f-a272-d670dd3eb8e0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/30572373-95f1-4a9b-ac7c-4c70ebb6c62a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3083de3da5c5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/34100713-9ec2-49c2-abdc-dcf93ce652bb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3e454976-f7cb-41f9-9689-c71bcc0ec909(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3e454976-f7cb-41f9-9689-c71bcc0ec909.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3f67ba39-c9b8-4dc6-95bb-6c986c3d6c61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3fe63458-dcb7-4824-8058-ca85d3dd6329.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4df17999-15a9-468a-989c-07f050410cd2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5-33d2da32c552b8be9a0548c7a4576607.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5210859b-fc54-4cf8-908f-830f0237926a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5c8f4209-7647-498f-89df-e6209b1ae76e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6172139-e48b4437f8fbe5b5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6225d697-373a-4b44-a78b-5491ca1be4e7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/65cc1392-bb2c-49f6-97d8-dc15bc5be8a1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6b8fe151ed8a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7285165-d9bf181b7c743910.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7ad1f779c59b.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7b03cc93-0679-4b42-a967-4d1ff7e32f47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7bee776a-73e0-472b-a3e1-20c53bd6aed6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7d3b670c8d31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7db80f82-b0ea-405a-80ed-3bce5acfa0d7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7ec67889-fcb1-4677-b5c6-c17519bebb88.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/8-a356878e44b45ab268a3b0bbaaadeeb7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/831f7150-34ce-42c8-995f-5f5c649c1255" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/8426304-5c2868bc425a055a.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/8796536-3a8efee869a0a273.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/9167292-de4debb1a06d98fc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/91880cc96077.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/934f1ff8-cf28-4f94-a1cd-f0bda8d13798.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/956d272b-1d49-4974-9175-4589b7dfcc18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/9570250-563ad69f77c60376" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/9570250-868892a77ea2d97e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/VCG41678819337.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/a6216946-66ce-4ecc-930d-5e928a8b8e94" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/aefee11c-8bfa-4c54-a4cc-a9872927b172.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/avatar_default-78d4d1f68984cd6d4379508dd94b4210.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/cd582e6a-2889-4ce2-b32c-b71a4c9ec2a3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/ce1bcfd0-06ec-41a7-8aa4-3873cb2510d8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/crop1531037651695.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/crop1531950627820.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/d6d9b8a6-e7e5-48a4-9878-0e992479f51d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/d70270ff-062e-46a5-bfce-d73e6c24c921.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/d8b372df069e.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/de75c253-640d-4355-bce1-260a366aee8f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/download-index-side-qrcode-cb13fc9106a478795f8d10f9f632fccf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/f2aa2c62-176b-4eab-86ac-34d44404bb26.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/f7f77390-a39a-4472-bbd8-5a72e9db58ec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/fe76f2811ff0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/nav-logo-4c7bbafe27adc892f3046e6978459bac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/web-note-ad-1-c2e1746859dbf03abe49248893c9bea4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/35049517-12f3-4ca9-ade8-ced11973c50a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/35049517-12f3-4ca9-ade8-ced11973c50a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -128,20 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show_img.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/show_img.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="89">
+              <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -161,8 +70,22 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="212">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSModel/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
@@ -179,11 +102,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSModel/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="375">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -194,8 +122,8 @@
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="97" column="62" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
+            <state relative-caret-position="-338">
+              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
             </state>
           </provider>
         </entry>
@@ -268,11 +196,11 @@
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-7fb4c1aebb52435f09b0.css" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/show.html" />
         <option value="$PROJECT_DIR$/JSModel/admin.py" />
-        <option value="$PROJECT_DIR$/JSModel/templates/JSModel/index.html" />
         <option value="$PROJECT_DIR$/JSModel/models.py" />
         <option value="$PROJECT_DIR$/JSModel/urls.py" />
         <option value="$PROJECT_DIR$/JianShu/urls.py" />
         <option value="$PROJECT_DIR$/JSModel/views.py" />
+        <option value="$PROJECT_DIR$/JSModel/templates/JSModel/index.html" />
       </list>
     </option>
   </component>
@@ -303,6 +231,29 @@
             <path>
               <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
               <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,19 +347,34 @@
       <option name="project" value="LOCAL" />
       <updated>1532923379234</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="password">
+      <created>1533024288231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533024288231</updated>
+    </task>
+    <task id="LOCAL-00004" summary="path">
+      <created>1533024460573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533024460573</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="24" width="1440" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37465563" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22589532" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37465563" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22589532" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32969698" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
@@ -435,10 +401,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="password" />
-    <option name="LAST_COMMIT_MESSAGE" value="password" />
+    <MESSAGE value="path" />
+    <option name="LAST_COMMIT_MESSAGE" value="path" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Model1/templates/Model1/index.html" />
     <entry file="file://$PROJECT_DIR$/Model1/templates/Model1/detail.html" />
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -486,9 +452,6 @@
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4107465-3b0e19d9d0a9ab87.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -506,13 +469,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1812827-07f2048d7c360cab.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/header.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -609,30 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -653,20 +585,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="97" column="62" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-338">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
         </state>
       </provider>
     </entry>
