@@ -6,8 +6,12 @@ from .models import NewsArticle, ListArticle
 
 
 def index(request):
-    url = request.get_full_path()
-    print(url)
+    url1 = request.get_full_path()
+    url2 = request.get_host()
+    url4 = request.get_raw_uri()
+    print(url1)
+    print(url2)
+    print(url4)
     new_article = NewsArticle.objects.order_by('-create_time')[:4]
     template = loader.get_template('JSModel/index.html')
     list_article = ListArticle.objects.order_by('-list_name')[:4]
