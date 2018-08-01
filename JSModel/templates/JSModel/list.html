@@ -17,13 +17,6 @@
 
     <meta name="description" content="">
 
-    <meta name="360-site-verification" content="604a14b53c6b871206001285921e81d8">
-    <meta property="wb:webmaster" content="294ec9de89e7fadb">
-    <meta property="qc:admins" content="104102651453316562112116375">
-    <meta property="qc:admins" content="11635613706305617">
-    <meta property="qc:admins" content="1163561616621163056375">
-    <meta name="google-site-verification" content="">
-    <meta name="google-site-verification" content="">
 
     <!-- Apple -->
     <meta name="apple-mobile-web-app-title" content="简书">
@@ -81,130 +74,26 @@
             </ul>
             <div id="list-container"><!-- 文章列表模块 -->
                 <ul class="note-list">
-
-                    <li id="note-30501682" data-note-id="30501682" class="have-img">
-                        <a class="wrap-img" href="/show" target="_blank">
+                {% for line in list_article %}
+                    <li id="{{ line.id }}" class="have-img">
+                        <a class="wrap-img" href="/show/{{ line.id }}" target="_blank">
                             <img class="  img-blur-done"
-                                 src="{% static 'img/2216003-17cbf3a8ba9681ce.jpg' %}" alt="120">
+                                 src="{% static 'img' %}/{{ line.img.0 }}" alt="120">
                         </a>
                         <div class="content">
-                            <a class="title" target="_blank" href="/show">小白学水彩｜临摹
-                                荷</a>
+                            <a class="title" target="_blank" href="/show/{{ line.id }}">{{ line.title }}</a>
                             <p class="abstract">
-                                加个边框： 偶然看到这幅图，非常喜欢，喜欢就画画呗！ 可惜，没有画出原图的灵动轻盈！ 继续努力吧！(๑ºั╰╯ºั๑) 原图欣赏
+                                {{ line.description|truncatechars:100 }}
                             </p>
                             <div class="meta">
-                                <a class="nickname" target="_blank" href="#">潭心</a>
-                                <a target="_blank" href="/show">
-                                    <i class="iconfont ic-list-comments"></i> 3
-                                </a> <span><i class="iconfont ic-list-like"></i> 5</span>
+                                <a class="nickname" target="_blank" href="/list-{{ line.author }}/">{{ line.author }}</a>
+                                <a target="_blank" href="/show/{{ line.id }}">
+                                    <i class="iconfont ic-list-comments"></i> {{ line.comment }}
+                                </a> <span><i class="iconfont ic-list-like"></i> {{ line.like }}</span>
                             </div>
                         </div>
                     </li>
-
-
-                    <li id="note-31549918" data-note-id="31549918" class="have-img">
-                        <a class="wrap-img" href="https://www.jianshu.com/p/853cf5eb3489" target="_blank">
-                            <img class="  img-blur-done"
-                                 src="{% static 'img/1264672-accc60166a5c3137.jpg' %}" alt="120">
-                        </a>
-                        <div class="content">
-                            <a class="title" target="_blank" href="https://www.jianshu.com/p/853cf5eb3489">【曼陀罗022/100】专注力</a>
-                            <p class="abstract">
-                                这个沿着同心圆画螺旋圈培养专注的方法，缘于我的思维导图老师。 要求是中间尽量不要断，尽量画圆，尽量画得密一些，非常适合小孩子。 今天第一次尝试发...
-                            </p>
-                            <div class="meta">
-                                <a class="nickname" target="_blank"
-                                   href="#">李安迪</a>
-                                <a target="_blank" href="https://www.jianshu.com/p/853cf5eb3489#comments">
-                                    <i class="iconfont ic-list-comments"></i> 1
-                                </a> <span><i class="iconfont ic-list-like"></i> 3</span>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li id="note-30501682" data-note-id="30501682" class="have-img">
-                        <a class="wrap-img" href="#" target="_blank">
-                            <img class="  img-blur-done"
-                                 src="{% static 'img/2216003-17cbf3a8ba9681ce.jpg' %}" alt="120">
-                        </a>
-                        <div class="content">
-                            <a class="title" target="_blank" href="">小白学水彩｜临摹
-                                荷</a>
-                            <p class="abstract">
-                                加个边框： 偶然看到这幅图，非常喜欢，喜欢就画画呗！ 可惜，没有画出原图的灵动轻盈！ 继续努力吧！(๑ºั╰╯ºั๑) 原图欣赏
-                            </p>
-                            <div class="meta">
-                                <a class="nickname" target="_blank" href="#">潭心</a>
-                                <a target="_blank" href="https://www.jianshu.com/p/bee4b27ed3cf#comments">
-                                    <i class="iconfont ic-list-comments"></i> 3
-                                </a> <span><i class="iconfont ic-list-like"></i> 5</span>
-                            </div>
-                        </div>
-                    </li>
-
-
-                    <li id="note-31549918" data-note-id="31549918" class="have-img">
-                        <a class="wrap-img" href="https://www.jianshu.com/p/853cf5eb3489" target="_blank">
-                            <img class="  img-blur-done"
-                                 src="{% static 'img/1264672-accc60166a5c3137.jpg' %}" alt="120">
-                        </a>
-                        <div class="content">
-                            <a class="title" target="_blank" href="https://www.jianshu.com/p/853cf5eb3489">【曼陀罗022/100】专注力</a>
-                            <p class="abstract">
-                                这个沿着同心圆画螺旋圈培养专注的方法，缘于我的思维导图老师。 要求是中间尽量不要断，尽量画圆，尽量画得密一些，非常适合小孩子。 今天第一次尝试发...
-                            </p>
-                            <div class="meta">
-                                <a class="nickname" target="_blank"
-                                   href="#">李安迪</a>
-                                <a target="_blank" href="https://www.jianshu.com/p/853cf5eb3489#comments">
-                                    <i class="iconfont ic-list-comments"></i> 1
-                                </a> <span><i class="iconfont ic-list-like"></i> 3</span>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li id="note-30501682" data-note-id="30501682" class="have-img">
-                        <a class="wrap-img" href="#" target="_blank">
-                            <img class="  img-blur-done"
-                                 src="{% static 'img/2216003-17cbf3a8ba9681ce.jpg' %}" alt="120">
-                        </a>
-                        <div class="content">
-                            <a class="title" target="_blank" href="">小白学水彩｜临摹
-                                荷</a>
-                            <p class="abstract">
-                                加个边框： 偶然看到这幅图，非常喜欢，喜欢就画画呗！ 可惜，没有画出原图的灵动轻盈！ 继续努力吧！(๑ºั╰╯ºั๑) 原图欣赏
-                            </p>
-                            <div class="meta">
-                                <a class="nickname" target="_blank" href="#">潭心</a>
-                                <a target="_blank" href="https://www.jianshu.com/p/bee4b27ed3cf#comments">
-                                    <i class="iconfont ic-list-comments"></i> 3
-                                </a> <span><i class="iconfont ic-list-like"></i> 5</span>
-                            </div>
-                        </div>
-                    </li>
-
-
-                    <li id="note-31549918" data-note-id="31549918" class="have-img">
-                        <a class="wrap-img" href="https://www.jianshu.com/p/853cf5eb3489" target="_blank">
-                            <img class="  img-blur-done"
-                                 src="{% static 'img/1264672-accc60166a5c3137.jpg' %}" alt="120">
-                        </a>
-                        <div class="content">
-                            <a class="title" target="_blank" href="https://www.jianshu.com/p/853cf5eb3489">【曼陀罗022/100】专注力</a>
-                            <p class="abstract">
-                                这个沿着同心圆画螺旋圈培养专注的方法，缘于我的思维导图老师。 要求是中间尽量不要断，尽量画圆，尽量画得密一些，非常适合小孩子。 今天第一次尝试发...
-                            </p>
-                            <div class="meta">
-                                <a class="nickname" target="_blank"
-                                   href="#">李安迪</a>
-                                <a target="_blank" href="https://www.jianshu.com/p/853cf5eb3489#comments">
-                                    <i class="iconfont ic-list-comments"></i> 1
-                                </a> <span><i class="iconfont ic-list-like"></i> 3</span>
-                            </div>
-                        </div>
-                    </li>
-
+                {% endfor %}
 
                 </ul>
             </div>

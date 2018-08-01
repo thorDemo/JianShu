@@ -36,28 +36,28 @@
 {% include 'JSModel/header.html' %}
 
 <div class="note">
-    <a target="_blank" href="#" id="web-note-ad-fixed" style="background: {% static 'img/web-note-ad-1-c2e1746859dbf03abe49248893c9bea4.png' %}"><span class="close">×</span></a>
+    <a target="_blank" href="#" id="web-note-ad-fixed"><span class="close">×</span></a>
     <div class="post">
         <div class="article">
-            <h1 class="title">为什么你“听过很多道理，却仍过不好这一生”？</h1>
+            <h1 class="title">{{ article.title }}</h1>
 
             <!-- 作者区域 -->
             <div class="author">
                 <a class="avatar" href="#">
-                    <img src="{% static 'img/3e454976-f7cb-41f9-9689-c71bcc0ec909.jpg' %}"
-                         alt="96">
+                    <img src="{% static 'img' %}/{{ article.author_img }}" alt="{{ article.author }}">
                 </a>
                 <div class="info">
-                    <span class="name"><a href="#">唐鹃</a></span>
+                    <span class="name"><a href="#">{{ article.author }}</a></span>
                     <!-- 关注用户按钮 -->
                     <a class="btn btn-success follow"><i class="iconfont ic-follow"></i><span>关注</span></a>
                     <!-- 文章数据信息 -->
                     <div class="meta">
                         <!-- 如果文章更新时间大于发布时间，那么使用 tooltip 显示更新时间 -->
-                        <span class="publish-time">2018.07.02 19:14</span>
-                        <span class="wordage">字数 1623</span>
-                        <span class="views-count">阅读 1242</span><span class="comments-count">评论 28</span><span
-                            class="likes-count">喜欢 28</span></div>
+                        <span class="publish-time">{{ article.create_time|date:"Y-m-d H:i:s " }}</span>
+                        <span class="wordage">字数 {{ article.quantity }}</span>
+                        <span class="views-count">阅读 {{ article.read }}</span>
+                        <span class="comments-count">评论 {{ article.comment }}</span>
+                        <span class="likes-count">喜欢 {{ article.like }}</span></div>
                 </div>
                 <!-- 如果是当前作者，加入编辑按钮 -->
             </div>
@@ -66,50 +66,21 @@
             <!-- 文章内容 -->
             <div data-note-content="" class="show-content">
                 <div class="show-content-free">
-                    {% include 'JSModel/show_img.html' %}
-                    <p>（文/唐鹃）</p>
-                    <p>前段时间，和朋友闲聊，打趣地提起，“为什么你‘听过很多道理，却仍过不好这一生”这个话题。</p>
-                    <p>当时，我不假思索，给出了答案：一是你听的道理还“不够多”；二是你还不懂得什么是“道理”，也就是，你还没学会“哲思”或“反思”。</p>
-                    <p>后来，朋友想更多了解我对此的看法。于是，约我吃饭，又聊了起来。</p>
-                    <p><b>01 “</b><b>很多</b><b>”</b><b>是多少？</b></p>
-                    <p></p>
-                    <p>第一次听到这句因《后会无期》而滥觞、又被大家口口相传到“俗不可耐”的“经典语录”时，我不经噗嗤一笑。</p>
-                    <p>
-                        举个例子：因为这句“语录”开始流行。一个在大家看来，从小厌学、又不听长辈师友劝导、也不经常学习反思的朋友，却郑重其事发了朋友圈、还立了flag，道出了心声——我听过很多道理，却仍旧过不好这一生。</p>
-                    <p>那么，问题来了？他把“很多”当成了“多少”呢？他确实，听过很多道理吗？</p>
-                    <p>哲人告诉我们，事实上，大部分人——“<b>听过的道理实在是太少了，以至于，他们自以为听过很多道理！</b><b>”</b></p>
-                    <p></p>
-                    <p>古人讲，“学然后知困”。一个人，真正听过很多道理，他首先意识到的应该是——自己在“听取、学习人生道理”这方面，是多么的浅薄！</p>
-                    <p>后来，我武断地结束了这个话题：“很多”，是相对于<b>满足</b><b>“</b><b>解决困惑和人生问题</b><b>”</b><b>的需要</b>而言的。过不好一生，就甭说自己听过很多道理。「我的潜台词是：真得懂这么多道理，还过不好一生。这条件是得多差、运气是得多背！」
-                    </p>
-                    <p><b>02&nbsp;</b><b>什么是</b><b>“</b><b>道理</b><b>”</b><b>？</b></p>
-                    <p></p>
-                    <p>还没读幼儿园时，父母就已经开始和小朋友们讲道理了。可以说，“道理”是我们生活中，最习以为常的东西。</p>
-                    <p>那么，我们还有意义再去探讨“道理”&nbsp;是什么吗？答案是肯定的！必须探讨。</p>
-                    {% include 'JSModel/show_img.html' %}
-                    <p>因为，习惯于一件事情、一个概念、一种思维，是极端可怖的！</p>
-                    <p>我郑重告诉友人：一般而言，“道理”不是教条，“道理”是方法。而“方法”一定是有“情境”的，因此“道理”也是有“情境”的！凡是没有“情境”的道理，OK，那都是“大道理”“假道理” “没道理”&nbsp;和“耍流氓”。</p>
-                    <p>比如，假设“谈恋爱千千万万、一定要宠女朋友”“男人一定要有野心、自信、坚持才能成功”这种话语是“道理”。</p>
-                    <p>那么，这种话语，就是没有“情境”的“大道理”“假道理”和“没道理”——这种“道理”听再多也没用，甚至有害身心健康。</p>
-                    <p>原因很简单，道理作为方法、方案，没有情境，就“无法操作”，甚至操作起来，还“适得其反”。</p>
-                    <p>
-                        比如，对女朋友怎么宠、用什么宠、什么时候宠、宠到什么程度？各个节点的“宠”的把握，完全依赖于“情境”的不同与变化。所以，“道理”和“假道理”的分野，一目了然。当我说完之后，友人稍稍认可了我的观点。</p>
-                    <p>于是，我趁机结束了谈话：道理是具体情境的解决方案。学道理，不仅是学方法，还要熟知情境。而用道理，首先要判断自己的处境，否则“学而不思则殆矣”。</p>
-                    <p>因此，我常说，探讨“道理是什么”的行为本身，就是最佳的学习道理的方式——这就是反思、哲思。</p>
-                    <p><b>03何以为“一生”？</b></p>
-                    <p></p>
-                    <p>“一生”如果不是指30岁、40岁，我想很多人还没有“资格”说“过不好一生”。</p>
-                    <p>一生，除了通俗意义上的“一辈子”。我想还有一层重要的含义：只要一生还没终结，一生就意味着“可能性”。</p>
-                    <p>什么意思呢？当我们开口，说自己这一生的时候，其实是想表达——到目前为止，我是如此如此的过生活！</p>
-                    <p>但，“如此如此”，仅仅只是现状和当下。</p>
-                    <p>我们不可能期待，昨天种下的树苗，第二天能结出果子。同样，人生也是如此。</p>
-                    <p>最好，不要指望：<b>所有的所做所行，当下就有</b><b>“</b><b>结果</b><b>”</b><b>。</b>（听到这个道理，朋友失声大笑！他说，他明白我说的意思了。）</p>
-                    <p>
-                        他笑嘻嘻地说：如果我听过“不苛求、急求当下”这个道理（“听过很多道理”的话，应该也听说过这个道理。没听过，就说明，听的道理还不够多），就不会说出我“听过很多的道理，却仍旧过不好这一生”这种丧气话。</p>
-                    <p>因为，人的一生，远远还未结束，只要还有“可能性”，一生就还在继续。对于还在“继续”的东西，我们怎么就轻易下了“判决书”呢？</p>
-                    <p>毕竟，明天，又是新的一天。我们可以，用新的时间、学新的道理、过新的生活。</p>
-                    <p>后来，我们又聊了会儿，抢买了单，走了。</p>
-                    <p><b>（欢迎关注个人公众号”唐鹃“，图片均来源于网络，若侵权，请留言联系删除，谢谢）</b></p>
+                    {% for line in article.context %}
+                        {% if '/static' in line %}
+                            <div class="image-package">
+                                <div class="image-container" style="max-width: 500px; max-height: 377px; background-color: transparent;">
+                                    <div class="image-container-fill" style="padding-bottom: 75.4%;"></div>
+                                    <div class="image-view" data-width="500" data-height="377">
+                                        <img width=100% height=100% data-original-format="image/jpeg" data-original-filesize="27968" class="" style="cursor: zoom-in;" src="{{ line }}">
+                                    </div>
+                                </div>
+                                <div class="image-caption">图/网络</div>
+                            </div>
+                        {% else %}
+                            <p>{{ line }}</p>
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -140,61 +111,26 @@
 
     <div class="side-tool">
         <ul>
-            <li data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="回到顶部"
-                style="display: none;"><a class="function-button"><i class="iconfont ic-backtop"></i></a></li> <!---->
+            <li data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="回到顶部" style="display: none;">
+                <a class="function-button"><i class="iconfont ic-backtop"></i></a></li>
         </ul>
     </div>
 </div>
     <div class="note-bottom">
     <!-- 相关文章 -->
     <div class="seo-recommended-notes">
-
+        {% for line in new_article %}
         <div class="note ">
-            <a class="title" target="_blank" href="#">读书虽好，却教不会你行动的能力2015-05-27 360doc个人图书馆点击上面↗-360d...</a>
-            <p class="description">读书虽好，却教不会你行动的能力2015-05-27 360doc个人图书馆点击上面↗-360doc个人图书馆-进行关注 作者：Lachel
-                来源：知乎本文已取得作者本人授权 读书永远学不来的能力，是放下书，走出去行动的能力。 读书肯定是好事，但也容易令人产生这么一种幻觉：读...</p>
-            <a class="author" target="_blank" href="#">
+            <a class="title" target="_blank" href="#">{{ line.title|truncatechars:50 }}</a>
+            <p class="description">{{ line.description|truncatechars:100 }}</p>
+            <a class="author" target="_blank" href="{{ line.url }}">
                 <div class="avatar">
-                    <img src="{% static 'img/8-a356878e44b45ab268a3b0bbaaadeeb7.jpg' %}" alt="48">
+                    <img src="{% static 'img' %}/{{ line.author_img }}" alt="48">
                 </div>
-                <span class="name">凤雨</span>
+                <span class="name">{{ line.author }}</span>
             </a>
         </div>
-        <div class="note ">
-            <a class="title" target="_blank" href="#">读书虽好，却教不会你行动的能力2015-05-27 360doc个人图书馆点击上面↗-360d...</a>
-            <p class="description">读书虽好，却教不会你行动的能力2015-05-27 360doc个人图书馆点击上面↗-360doc个人图书馆-进行关注 作者：Lachel
-                来源：知乎本文已取得作者本人授权 读书永远学不来的能力，是放下书，走出去行动的能力。 读书肯定是好事，但也容易令人产生这么一种幻觉：读...</p>
-            <a class="author" target="_blank" href="#">
-                <div class="avatar">
-                    <img src="{% static 'img/8-a356878e44b45ab268a3b0bbaaadeeb7.jpg' %}" alt="48">
-                </div>
-                <span class="name">凤雨</span>
-            </a>
-        </div>
-        <div class="note ">
-            <a class="title" target="_blank" href="#">读书虽好，却教不会你行动的能力2015-05-27 360doc个人图书馆点击上面↗-360d...</a>
-            <p class="description">读书虽好，却教不会你行动的能力2015-05-27 360doc个人图书馆点击上面↗-360doc个人图书馆-进行关注 作者：Lachel
-                来源：知乎本文已取得作者本人授权 读书永远学不来的能力，是放下书，走出去行动的能力。 读书肯定是好事，但也容易令人产生这么一种幻觉：读...</p>
-            <a class="author" target="_blank" href="#">
-                <div class="avatar">
-                    <img src="{% static 'img/8-a356878e44b45ab268a3b0bbaaadeeb7.jpg' %}" alt="48">
-                </div>
-                <span class="name">凤雨</span>
-            </a>
-        </div>
-        <div class="note ">
-            <a class="title" target="_blank" href="#">读书虽好，却教不会你行动的能力2015-05-27 360doc个人图书馆点击上面↗-360d...</a>
-            <p class="description">读书虽好，却教不会你行动的能力2015-05-27 360doc个人图书馆点击上面↗-360doc个人图书馆-进行关注 作者：Lachel
-                来源：知乎本文已取得作者本人授权 读书永远学不来的能力，是放下书，走出去行动的能力。 读书肯定是好事，但也容易令人产生这么一种幻觉：读...</p>
-            <a class="author" target="_blank" href="#">
-                <div class="avatar">
-                    <img src="{% static 'img/8-a356878e44b45ab268a3b0bbaaadeeb7.jpg' %}" alt="48">
-                </div>
-                <span class="name">凤雨</span>
-            </a>
-        </div>
-
-
+        {% endfor %}
     </div>
 </div>
 </div>
