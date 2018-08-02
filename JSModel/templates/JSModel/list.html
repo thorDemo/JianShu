@@ -22,7 +22,7 @@
     <meta name="apple-mobile-web-app-title" content="简书">
 
 
-    <title>手绘 - 专题 - 简书</title>
+    <title>{{ list_message.list_ch }}</title>
 
     <link rel="stylesheet" media="all" href="{% static 'css/web-2b26d78a4d3c053b7b1c.css' %}">
 
@@ -51,43 +51,39 @@
         <div class="col-xs-24 col-sm-16 main">
             <!-- 专题头部模块 -->
             <div class="main-top">
-                <a class="avatar-collection" href="/show">
-                    <img src="{% static 'img/漫画专题.jpg' %}" alt="240">
+                <a class="avatar-collection" href="/list/{{ list_message.list_name }}">
+                    <img src="{% static 'img' %}/{{ list_message.list_img }}" alt="240">
                 </a> <a class="btn btn-success follow"><i class="iconfont ic-follow"></i><span>关注</span></a>
                 <a class="btn btn-hollow"
                    href="">投稿</a>
 
                 <div class="title">
-                    <a class="name" href="">手绘</a>
+                    <a class="name" href="">{{ list_message.list_ch }}</a>
                 </div>
                 <div class="info">
                     收录了118021篇文章 · 1471597人关注
                 </div>
             </div>
             <ul class="trigger-menu" data-pjax-container="#list-container">
-                <li class="active"><a href="#"><i
-                        class="iconfont ic-latestcomments"></i> 最新评论</a></li>
-                <li class=""><a href="#"><i
-                        class="iconfont ic-articles"></i> 最新收录</a></li>
-                <li class=""><a href="#"><i
-                        class="iconfont ic-hot"></i> 热门</a></li>
+                <li class="active"><a href="#"><i class="iconfont ic-latestcomments"></i> 最新评论</a></li>
+                <li class=""><a href="#"><i class="iconfont ic-articles"></i> 最新收录</a></li>
+                <li class=""><a href="#"><i class="iconfont ic-hot"></i> 热门</a></li>
             </ul>
             <div id="list-container"><!-- 文章列表模块 -->
                 <ul class="note-list">
                 {% for line in list_article %}
-                    <li id="{{ line.id }}" class="have-img">
+                    <li id="{{ line.re_id }}" class="have-img">
                         <a class="wrap-img" href="/show/{{ line.id }}" target="_blank">
-                            <img class="  img-blur-done"
-                                 src="{% static 'img' %}/{{ line.img.0 }}" alt="120">
+                            <img class="  img-blur-done" src="{% static 'img/full' %}/{{ line.img.0 }}" alt="120">
                         </a>
                         <div class="content">
-                            <a class="title" target="_blank" href="/show/{{ line.id }}">{{ line.title }}</a>
+                            <a class="title" target="_blank" href="/show/{{ line.re_id }}">{{ line.title }}</a>
                             <p class="abstract">
                                 {{ line.description|truncatechars:100 }}
                             </p>
                             <div class="meta">
                                 <a class="nickname" target="_blank" href="/list-{{ line.author }}/">{{ line.author }}</a>
-                                <a target="_blank" href="/show/{{ line.id }}">
+                                <a target="_blank" href="/show/{{ line.re_id }}">
                                     <i class="iconfont ic-list-comments"></i> {{ line.comment }}
                                 </a> <span><i class="iconfont ic-list-like"></i> {{ line.like }}</span>
                             </div>

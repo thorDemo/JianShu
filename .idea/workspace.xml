@@ -2,13 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5805b40-8ebb-46d0-ab5f-997a709a5e90" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/js/banner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/35049517-12f3-4ca9-ade8-ced11973c50a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/35049517-12f3-4ca9-ade8-ced11973c50a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSModel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/show_img.html" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/show_img.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-7fb4c1aebb52435f09b0.css" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-7fb4c1aebb52435f09b0.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/068fc84b-f66d-4f4e-a94d-c61c5359287a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/10144866-6f7d3f9d5be297a6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/10453543-e48fe6f681c5d81d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/10530909-9776d1e8062a7b1c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/11-4d7c6ca89f439111aff57b23be1c73ba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/11267773-c4a7ba39487d733e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/11588474-244c476288a1edc3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1211570-d1543216bee7aa2f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/12119273-87192c211044e2fb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/12200705-855e43bb368cdd07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/12254482-b484c248a72a7cd6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/12429821-c26181a8bfeeffed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1264672-accc60166a5c3137.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/12881639-69aa6c394310e8c8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/15-a7ac401939dd4df837e3bbf82abaa2a8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1633961-8b16a58a860dcb1b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1789560-8e4e0ec58ece24db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1812827-07f2048d7c360cab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/18720e36-b768-4b3f-b14f-8631046ef598.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1911523-8b10f9389f37f2e3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1938880-94608620e2c3983e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1994601-55b2d924480d53a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/2009031609140019346.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/2216003-17cbf3a8ba9681ce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/22d8d123-271c-4d80-9c59-6990844a9e37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/244457d8-e2d7-4a9d-b359-264cbd522e42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/2578032-b559bee622a850ac.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/2729710-74cb667cfceee487.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/2781391-f3b622db84fd498d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/2a4b2f2b-e68a-405f-a272-d670dd3eb8e0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/30572373-95f1-4a9b-ac7c-4c70ebb6c62a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3058559-b5c9f147163c0959.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3083de3da5c5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3247999-9cf1b7c0f3b2c0bf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/34100713-9ec2-49c2-abdc-dcf93ce652bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3609870-07206645c9736e3d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3990637-10af3f626132c755.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3e454976-f7cb-41f9-9689-c71bcc0ec909(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3e454976-f7cb-41f9-9689-c71bcc0ec909.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3f67ba39-c9b8-4dc6-95bb-6c986c3d6c61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3fe63458-dcb7-4824-8058-ca85d3dd6329.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4065136-6bd5f5b9564e6cc7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4107465-3b0e19d9d0a9ab87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4473940-e105a4096277ee33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4474991-b5638a3f209913bf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4632611-f6f4beacd147d01c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4931943-4698844745057308.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4df17999-15a9-468a-989c-07f050410cd2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5-33d2da32c552b8be9a0548c7a4576607.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5019673-567bcf6e7a49edc3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/51164a1egd7b1a4a7c491_690.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5c8f4209-7647-498f-89df-e6209b1ae76e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6172139-e48b4437f8fbe5b5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6225d697-373a-4b44-a78b-5491ca1be4e7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6347375-5aa48fe7bc76646f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6423594-f20d3897791de70c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6475893-1f9b169825a41be6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/65cc1392-bb2c-49f6-97d8-dc15bc5be8a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6887328-2c981737d1c72107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6b8fe151ed8a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7222239-a167c28cf0740914.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7285165-d9bf181b7c743910.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7ad1f779c59b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7b03cc93-0679-4b42-a967-4d1ff7e32f47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7d3b670c8d31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7ec67889-fcb1-4677-b5c6-c17519bebb88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/8-a356878e44b45ab268a3b0bbaaadeeb7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/8273579-90f65ac353fed792.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/831f7150-34ce-42c8-995f-5f5c649c1255" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/8426304-5c2868bc425a055a.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/8779019-e758633f0c13b5cd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/8796536-3a8efee869a0a273.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/9167292-de4debb1a06d98fc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/91880cc96077.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/934f1ff8-cf28-4f94-a1cd-f0bda8d13798.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/956d272b-1d49-4974-9175-4589b7dfcc18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/9616950-f722ac8b14ae3abe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/9bc600ce-7672-42b8-b03b-1a779593dd45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/cd582e6a-2889-4ce2-b32c-b71a4c9ec2a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/ce1bcfd0-06ec-41a7-8aa4-3873cb2510d8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/crop1531037651695.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/crop1531950627820.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/d6d9b8a6-e7e5-48a4-9878-0e992479f51d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/d8b372df069e.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/de75c253-640d-4355-bce1-260a366aee8f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/download-index-side-qrcode-cb13fc9106a478795f8d10f9f632fccf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/eb973bb9-37ba-4d07-acec-850c0a66d1bb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/ed2ea7f3-9d7d-41fc-a05a-daebb8097b0c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/f2aa2c62-176b-4eab-86ac-34d44404bb26.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/f7f77390-a39a-4472-bbd8-5a72e9db58ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/啊.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JSModel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSModel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/views.py" afterDir="false" />
     </list>
@@ -51,6 +144,20 @@
         <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="station: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="JSModel_articleauthor: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="station: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="JSModel_listarticle: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="station: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="JSModel_newsarticle: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
@@ -64,8 +171,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="82" column="50" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+            <state relative-caret-position="282">
+              <caret line="59" column="116" selection-start-line="59" selection-start-column="116" selection-end-line="59" selection-end-column="116" />
             </state>
           </provider>
         </entry>
@@ -73,8 +180,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
               </folding>
@@ -85,31 +192,10 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="64" column="38" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="38" />
+            <state relative-caret-position="211">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/show.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1905">
-              <caret line="127" column="67" selection-start-line="127" selection-start-column="67" selection-end-line="127" selection-end-column="67" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1533089067509" expanded="false" signature="3375:3474" ph="..." />
-                <marker date="1533089067509" expanded="false" signature="3517:3576" ph="..." />
-                <marker date="1533089067509" expanded="false" signature="3625:3678" ph="..." />
-                <marker date="1533089067509" expanded="false" signature="3725:3846" ph="..." />
-                <marker date="1533089067509" expanded="true" signature="3735:3846" ph="..." />
-                <marker date="1533089067509" expanded="false" signature="5102:5217" ph="..." />
               </folding>
             </state>
           </provider>
@@ -118,19 +204,41 @@
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1400">
-              <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+            <state relative-caret-position="526">
+              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSModel/urls.py">
+      <file leaf-file-name="banner.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/js/banner.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSModel/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="190">
+              <caret line="36" column="11" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1533174707817" expanded="false" signature="3410:3509" ph="..." />
+                <marker date="1533174707817" expanded="false" signature="3552:3611" ph="..." />
+                <marker date="1533174707817" expanded="false" signature="3660:3713" ph="..." />
+                <marker date="1533174707817" expanded="false" signature="3760:3881" ph="..." />
+                <marker date="1533174707817" expanded="false" signature="5152:5267" ph="..." />
               </folding>
             </state>
           </provider>
@@ -143,6 +251,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -161,6 +270,9 @@
       <find>web-note</find>
       <find>web-note-ad-1-</find>
       <find>.note #web-note-ad-fixed</find>
+      <find>img</find>
+      <find>list_message</find>
+      <find>_id</find>
     </findStrings>
     <replaceStrings>
       <replace>#</replace>
@@ -189,20 +301,21 @@
         <option value="$PROJECT_DIR$/Model1/templates/JianShu/index.html" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/JianShu/wsgi.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/35049517-12f3-4ca9-ade8-ced11973c50a/console.sql" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/header.html" />
-        <option value="$PROJECT_DIR$/JSModel/admin.py" />
         <option value="$PROJECT_DIR$/JianShu/urls.py" />
-        <option value="$PROJECT_DIR$/JSModel/templates/JSModel/index.html" />
         <option value="$PROJECT_DIR$/JianShu/settings.py" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/show_img.html" />
-        <option value="$PROJECT_DIR$/JSModel/models.py" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/web-2b26d78a4d3c053b7b1c.css" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-7fb4c1aebb52435f09b0.css" />
-        <option value="$PROJECT_DIR$/JSModel/templates/JSModel/list.html" />
+        <option value="$PROJECT_DIR$/JSModel/admin.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/35049517-12f3-4ca9-ade8-ced11973c50a/console.sql" />
         <option value="$PROJECT_DIR$/JSModel/urls.py" />
-        <option value="$PROJECT_DIR$/JSModel/views.py" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/show.html" />
+        <option value="$PROJECT_DIR$/JSModel/views.py" />
+        <option value="$PROJECT_DIR$/JSModel/models.py" />
+        <option value="$PROJECT_DIR$/JSModel/templates/JSModel/index.html" />
+        <option value="$PROJECT_DIR$/JSModel/templates/JSModel/list.html" />
+        <option value="$PROJECT_DIR$/JSModel/templates/JSModel/static/js/banner.js" />
       </list>
     </option>
   </component>
@@ -232,6 +345,41 @@
               <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
               <item name="JianShu" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -252,12 +400,13 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JSModel/templates/JSModel/static/img" />
+      <recent name="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/basic" />
       <recent name="$PROJECT_DIR$/JSModel/templates/JSModel/static/css" />
       <recent name="$PROJECT_DIR$/JSModel/templates/JSModel" />
       <recent name="$PROJECT_DIR$/JSModel/templates" />
-      <recent name="$PROJECT_DIR$/JSModel/templates/static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/basic" />
       <recent name="$PROJECT_DIR$/JSModel/templates/JSModel" />
       <recent name="$PROJECT_DIR$/Model1/templates/JianShu" />
     </key>
@@ -352,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533025882073</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="基本功能实现">
+      <created>1533089527702</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533089527702</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -363,13 +519,13 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35030302" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27272728" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32969698" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17453505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2160229" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.2539342" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -383,22 +539,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="7" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32969698" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2160229" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34181818" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.1602289" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35030302" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.17310444" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3890909" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="SciView" order="5" />
@@ -417,65 +573,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="password" />
     <MESSAGE value="path" />
-    <option name="LAST_COMMIT_MESSAGE" value="path" />
+    <MESSAGE value="基本功能实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本功能实现" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Model1/models.py" />
-    <entry file="file://$PROJECT_DIR$/Model1/admin.py" />
-    <entry file="file://$PROJECT_DIR$/JianShu/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4107465-3b0e19d9d0a9ab87.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4065136-6bd5f5b9564e6cc7">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/2729710-74cb667cfceee487.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1994601-55b2d924480d53a2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1911523-8b10f9389f37f2e3.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1812827-07f2048d7c360cab.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1264672-accc60166a5c3137.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/65cc1392-bb2c-49f6-97d8-dc15bc5be8a1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5c8f4209-7647-498f-89df-e6209b1ae76e.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1211570-d1543216bee7aa2f">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/91880cc96077.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -491,9 +592,6 @@
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1633961-8b16a58a860dcb1b.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7bee776a-73e0-472b-a3e1-20c53bd6aed6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/django/utils/autoreload.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -503,38 +601,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5-33d2da32c552b8be9a0548c7a4576607.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/0e79cac4-7f48-4223-99ea-4e314236afbb.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/0b444f3a9032.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/show_img.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -585,44 +651,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6b8fe151ed8a.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5c8f4209-7647-498f-89df-e6209b1ae76e.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7bee776a-73e0-472b-a3e1-20c53bd6aed6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/migrations/0009_auto_20180731_1721.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/migrations/0010_articleauthor.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/django_migrations">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/django_content_type">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7d3b670c8d31">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/0e79cac4-7f48-4223-99ea-4e314236afbb.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7b03cc93-0679-4b42-a967-4d1ff7e32f47.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/0b444f3a9032.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JianShu/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/banner-s-5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="275" selection-start-line="275" selection-end-line="275" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/hk_applelogo_2017_life.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/jsmodel_articleauthor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1400">
-          <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="82" column="50" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+        <state relative-caret-position="190">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -633,17 +751,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/jsmodel_listarticle">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/35049517-12f3-4ca9-ade8-ced11973c50a/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="64" column="38" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="38" />
+        <state relative-caret-position="211">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
@@ -652,22 +787,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1905">
-          <caret line="127" column="67" selection-start-line="127" selection-start-column="67" selection-end-line="127" selection-end-column="67" />
+        <state relative-caret-position="1305">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1533089067509" expanded="false" signature="3375:3474" ph="..." />
-            <marker date="1533089067509" expanded="false" signature="3517:3576" ph="..." />
-            <marker date="1533089067509" expanded="false" signature="3625:3678" ph="..." />
-            <marker date="1533089067509" expanded="false" signature="3725:3846" ph="..." />
-            <marker date="1533089067509" expanded="true" signature="3735:3846" ph="..." />
-            <marker date="1533089067509" expanded="false" signature="5102:5217" ph="..." />
+            <marker date="1533174707817" expanded="false" signature="3410:3509" ph="..." />
+            <marker date="1533174707817" expanded="false" signature="3552:3611" ph="..." />
+            <marker date="1533174707817" expanded="false" signature="3660:3713" ph="..." />
+            <marker date="1533174707817" expanded="false" signature="3760:3881" ph="..." />
+            <marker date="1533174707817" expanded="false" signature="5152:5267" ph="..." />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="59" column="116" selection-start-line="59" selection-start-column="116" selection-end-line="59" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/js/banner.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

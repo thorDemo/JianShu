@@ -16,11 +16,6 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-    <meta property="wb:webmaster" content="294ec9de89e7fadb">
-    <meta property="qc:admins" content="104102651453316562112116375">
-    <meta property="qc:admins" content="11635613706305617">
-    <meta property="qc:admins" content="1163561616621163056375">
-
     <!-- Apple -->
     <meta name="apple-mobile-web-app-title" content="简书">
     <title>简书 - 创作你的创作</title>
@@ -52,17 +47,17 @@
                     <div class="carousel-inner">
                         <div class="item">
                             <div class="banner" data-banner-name="快速提高职场竞争力，高效办公有窍门">
-                                <a target="_blank" href="#"><img src="{% static 'img/banner1.jpg' %}" alt="540"></a>
+                                <a target="_blank" href="#"><img src="{% static 'img/full' %}/{{ new_article.0.img.0 }}" alt="540"></a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="banner" data-banner-name="《星星自传》第三期 | 我和童话有个约会-寻麦">
-                                <a target="_blank" href="#"><img src="{% static 'img/banner2.jpg' %}" alt="540"></a>
+                                <a target="_blank" href="#"><img src="{% static 'img/full' %}/{{ new_article.0.img.0 }}" alt="540"></a>
                             </div>
                         </div>
                         <div class="item active">
                             <div class="banner" data-banner-name="简书×腾讯夏日电影野餐周">
-                                <a target="_blank" href="#"><img src="{% static 'img/banner3.jpg' %}" alt="540"></a>
+                                <a target="_blank" href="#"><img src="{% static 'img/full' %}/{{ new_article.0.img.0 }}" alt="540"></a>
                             </div>
                         </div>
                     </div>
@@ -81,9 +76,9 @@
                 <!-- 栏目列表 start-->
                 <div class="recommend-collection">
                     {% for line in list_article %}
-                    <a class="collection" target="_blank" href="{{ line.list_url }}">
+                    <a class="collection" target="_blank" href="list_{{ line.list_name }}">
                         <img src="static/img/{{ line.list_img }}" alt="64">
-                        <div class="name">{{ line.list_name }}</div>
+                        <div class="name">{{ line.list_ch }}</div>
                     </a>
                     {% endfor %}
                     <a class="more-hot-collection" target="_blank" href="/list/">
@@ -99,12 +94,12 @@
                         <ul class="note-list" >
                             <li id="" data-note-id="" class="have-img">
                                 <a class="wrap-img" href="{{ page.url }}" target="_blank">
-                                    <img data-echo="" class="img-blur" src="{% static 'img' %}/{{ page.img.0 }}" alt="120">
+                                    <img data-echo="" class="img-blur" src="{% static 'img/full' %}/{{ page.img.0 }}" alt="120">
                                 </a>
                                 <div class="content">
                                     <a class="title" target="_blank" href="{{ page.url }}">{{ page.title }}</a>
                                     <p class="abstract">
-                                        {{ page.description }}
+                                        {{ page.description|truncatechars:100 }}
                                     </p>
                                     <div class="meta">
                                         <a class="nickname" target="_blank" href="{{ page.url }}">{{ page.author }}</a>

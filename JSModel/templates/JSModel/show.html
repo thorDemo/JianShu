@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
     <meta name="applicable-device" content="pc,mobile">
     <meta name="MobileOptimized" content="width">
-    <meta name="description" content="">
-    <meta name="apple-mobile-web-app-title" content="简书">
 
-    <title>为什么你“听过很多道理，却仍过不好这一生”？ - 简书</title>
+    <title>{{ article.title }}</title>
+    <meta name="keyword" content="{{ article.keyword }}">
+    <meta name="description" content="{{ article.description|truncatechars:100 }}">
 
     <link rel="stylesheet" media="all" href="{% static 'css/web-2b26d78a4d3c053b7b1c.css' %}">
     <link rel="stylesheet" media="all" href="{% static 'css/entry-7fb4c1aebb52435f09b0.css' %}">
@@ -78,7 +78,7 @@
                                 <div class="image-caption">图/网络</div>
                             </div>
                         {% else %}
-                            <p>{{ line }}</p>
+                            <p>{{ line|urlizetrunc:15 }}</p>
                         {% endif %}
                     {% endfor %}
                 </div>
@@ -121,8 +121,8 @@
     <div class="seo-recommended-notes">
         {% for line in new_article %}
         <div class="note ">
-            <a class="title" target="_blank" href="#">{{ line.title|truncatechars:50 }}</a>
-            <p class="description">{{ line.description|truncatechars:100 }}</p>
+            <a class="title" target="_blank" href="{{ line.url }}">{{ line.title }}</a>
+            <p class="description">{{ line.description|truncatechars:200 }}</p>
             <a class="author" target="_blank" href="{{ line.url }}">
                 <div class="avatar">
                     <img src="{% static 'img' %}/{{ line.author_img }}" alt="48">
