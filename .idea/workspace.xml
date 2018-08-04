@@ -3,16 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="d5805b40-8ebb-46d0-ab5f-997a709a5e90" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_News/Api_News/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api_News/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_News/Api_News/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api_News/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_News/Api_News/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api_News/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_News/Api_News/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api_News/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_News/Api_News/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api_News/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_News/Api_News/spiders/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/Api_News/spiders/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_News/Api_News/spiders/ApiNews.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api_News/spiders/ApiNews.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_News/Api_News/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api_News/spiders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_News/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_News/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api_News/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api_News/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api_News/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api_News/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api_News/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api_News/spiders/.pytest_cache/v/cache/nodeids" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api_News/spiders/ApiNews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api_News/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianShu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JianShu/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy.cfg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,40 +79,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="143">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Api_News/items.py">
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSModel/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#153#166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="banner.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/js/banner.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -119,7 +100,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="315">
               <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
@@ -128,49 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSModel/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="157" selection-start-line="157" selection-end-line="157" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JSModel/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
+            <state relative-caret-position="705">
               <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Api_News/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Api_News/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="e#24#77#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -260,10 +203,16 @@
         <option value="$PROJECT_DIR$/JianShu/urls.py" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/list.html" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/index.html" />
-        <option value="$PROJECT_DIR$/JianShu/settings.py" />
         <option value="$PROJECT_DIR$/Api_News/Api_News/pipelines.py" />
         <option value="$PROJECT_DIR$/Api_Newsx/Api_News/pipelines.py" />
         <option value="$PROJECT_DIR$/Api_News/pipelines.py" />
+        <option value="$PROJECT_DIR$/Api_News/spiders/ApiNews.py" />
+        <option value="$PROJECT_DIR$/Api_News/settings.py" />
+        <option value="$PROJECT_DIR$/Api_News/apps.py" />
+        <option value="$PROJECT_DIR$/JianShu/settings.py" />
+        <option value="$PROJECT_DIR$/JSModel/Api_News/settings.py" />
+        <option value="$PROJECT_DIR$/JSModel/Api_News/spiders/ApiNews.py" />
+        <option value="$PROJECT_DIR$/JSModel/Api_News/pipelines.py" />
       </list>
     </option>
   </component>
@@ -297,11 +246,6 @@
             <path>
               <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
               <item name="JianShu" type="462c0819:PsiDirectoryNode" />
-              <item name="Api_News" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
               <item name="JSModel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -322,18 +266,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Api_News" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/JSModel/templates/JSModel/static/js" />
       <recent name="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/basic" />
       <recent name="$PROJECT_DIR$/JSModel/templates/JSModel" />
-      <recent name="$PROJECT_DIR$/Model1/templates/JianShu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JSModel" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/JSModel/templates/JSModel/static/img" />
       <recent name="$PROJECT_DIR$/JSModel/templates/JSModel/static/img/basic" />
       <recent name="$PROJECT_DIR$/JSModel/templates/JSModel/static/css" />
-      <recent name="$PROJECT_DIR$/JSModel/templates/JSModel" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -475,7 +419,28 @@
       <option name="project" value="LOCAL" />
       <updated>1533376971149</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="spider add">
+      <created>1533377442933</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1533377442933</updated>
+    </task>
+    <task id="LOCAL-00015" summary="spider add">
+      <created>1533377577329</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1533377577329</updated>
+    </task>
+    <task id="LOCAL-00016" summary="spider add">
+      <created>1533377717479</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1533377717479</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -486,8 +451,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24363637" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27272728" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4169697" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36969697" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -541,21 +506,10 @@
     <MESSAGE value="password" />
     <MESSAGE value="path" />
     <MESSAGE value="基本功能实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本功能实现" />
+    <MESSAGE value="spider add" />
+    <option name="LAST_COMMIT_MESSAGE" value="spider add" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/django/utils/autoreload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5-33d2da32c552b8be9a0548c7a4576607.jpg" />
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/show_img.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/15-a7ac401939dd4df837e3bbf82abaa2a8.jpg" />
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/web-note-ad-1-c2e1746859dbf03abe49248893c9bea4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -573,9 +527,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6b8fe151ed8a.jpg" />
@@ -709,16 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -746,24 +687,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Api_News/middlewares.py">
+    <entry file="file://$PROJECT_DIR$/JSModel/Api_News/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api_News/items.py">
+    <entry file="file://$PROJECT_DIR$/JSModel/Api_News/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -772,13 +699,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Api_News/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <element signature="e#24#77#0" expanded="true" />
+            <element signature="e#631#663#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/Api_News/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/Api_News/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="79" column="85" lean-forward="true" selection-start-line="79" selection-start-column="85" selection-end-line="79" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/Api_News/spiders/ApiNews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/Api_News/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/Api_News/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
         </state>
       </provider>
     </entry>
