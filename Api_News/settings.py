@@ -9,10 +9,10 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Api_Newsx'
+BOT_NAME = 'Api_News'
 
-SPIDER_MODULES = ['Api_Newsx.spiders']
-NEWSPIDER_MODULE = 'Api_Newsx.spiders'
+SPIDER_MODULES = ['Api_News.spiders']
+NEWSPIDER_MODULE = 'Api_News.spiders'
 
 # MYSQL_HOST = '103.56.136.105'
 # MYSQL_DBNAME = 'news'
@@ -55,13 +55,13 @@ DEFAULT_REQUEST_HEADERS = {
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'Api_Newsx.middlewares.ApiNewsSpiderMiddleware': 543,
+#    'Api_News.middlewares.ApiNewsSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'Api_Newsx.middlewares.ApiNewsDownloaderMiddleware': 543,
+#    'Api_News.middlewares.ApiNewsDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -73,8 +73,8 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'Api_Newsx.pipelines.ApiNewsPipeline': 300,
-   'Api_Newsx.pipelines.MyImagesPipeline': 100,
+   'Api_News.pipelines.ApiNewsPipeline': 300,
+   'Api_News.pipelines.MyImagesPipeline': 100,
 }
 # IMAGES_STORE = '/www/wwwroot/Special/JianShu/JSModel/templates/JSModel/static/img/'
 IMAGES_STORE = '/Users/hexiaotian/PycharmProjects/JianShu/JSModel/templates/JSModel/static/img/'
