@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5805b40-8ebb-46d0-ab5f-997a709a5e90" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/js/jquery-3.3.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-7fb4c1aebb52435f09b0.css" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-7fb4c1aebb52435f09b0.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-b92af14ed8ebe3efb6ff.css" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-b92af14ed8ebe3efb6ff.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry.css" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/web-2b26d78a4d3c053b7b1c.css" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/web-2b26d78a4d3c053b7b1c.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/web.css" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/web.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/js/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/js/banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JianShu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JianShu/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,39 +26,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="MySQL - station@23.110.211.170" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="MySQL - station@23.110.211.170" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="station: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="MySQL - station@23.110.211.170" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="station: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="JSModel_articleauthor: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="station: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="JSModel_listarticle: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="station: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="JSModel_newsarticle: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -81,8 +50,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -90,8 +59,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="199">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -99,8 +68,8 @@
       <file leaf-file-name="show.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="67" column="47" lean-forward="true" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+            <state relative-caret-position="1005">
+              <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
               <folding>
                 <marker date="1533174707817" expanded="false" signature="3410:3509" ph="..." />
                 <marker date="1533174707817" expanded="false" signature="3552:3611" ph="..." />
@@ -124,7 +93,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="300">
               <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
@@ -136,8 +105,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="990">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -148,8 +117,8 @@
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="2355">
+              <caret line="157" selection-start-line="157" selection-end-line="157" />
             </state>
           </provider>
         </entry>
@@ -157,7 +126,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="540">
               <caret line="36" column="11" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="11" />
             </state>
           </provider>
@@ -271,6 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,11 +279,29 @@
               <item name="JSModel" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="full" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533215496207</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="基本功能实现">
+      <created>1533350007310</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1533350007310</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -456,14 +451,12 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24363637" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27272728" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24363637" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27272728" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32969698" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.17310444" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17310444" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -474,31 +467,33 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32969698" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Database Console" order="7" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32969698" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2160229" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32969698" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.17310444" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3890909" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32969698" />
       <window_info anchor="right" id="SciView" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.17310444" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32969698" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,18 +509,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="基本功能实现" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4473940-e105a4096277ee33.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3609870-07206645c9736e3d.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1938880-94608620e2c3983e">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1633961-8b16a58a860dcb1b.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/4473940-e105a4096277ee33.jpg" />
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/3609870-07206645c9736e3d.jpg" />
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1938880-94608620e2c3983e" />
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1633961-8b16a58a860dcb1b.jpg" />
     <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/django/utils/autoreload.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -533,15 +520,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5-33d2da32c552b8be9a0548c7a4576607.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5-33d2da32c552b8be9a0548c7a4576607.jpg" />
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/show_img.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/15-a7ac401939dd4df837e3bbf82abaa2a8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/15-a7ac401939dd4df837e3bbf82abaa2a8.jpg" />
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/web-note-ad-1-c2e1746859dbf03abe49248893c9bea4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -564,47 +547,23 @@
     <entry file="file://$PROJECT_DIR$/JSModel/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6b8fe151ed8a.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6b8fe151ed8a.jpg" />
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5c8f4209-7647-498f-89df-e6209b1ae76e.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/5c8f4209-7647-498f-89df-e6209b1ae76e.jpg" />
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7bee776a-73e0-472b-a3e1-20c53bd6aed6.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/migrations/0009_auto_20180731_1721.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/migrations/0010_articleauthor.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/django_migrations">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/django_content_type">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7d3b670c8d31">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/migrations/0009_auto_20180731_1721.py" />
+    <entry file="file://$PROJECT_DIR$/JSModel/migrations/0010_articleauthor.py" />
+    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/django_migrations" />
+    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/django_content_type" />
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7d3b670c8d31" />
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/0e79cac4-7f48-4223-99ea-4e314236afbb.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7b03cc93-0679-4b42-a967-4d1ff7e32f47.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/7b03cc93-0679-4b42-a967-4d1ff7e32f47.jpg" />
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/0b444f3a9032.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -612,9 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -634,37 +590,19 @@
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/hk_applelogo_2017_life.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/jsmodel_articleauthor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/jsmodel_articleauthor" />
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="540">
           <caret line="36" column="11" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/jsmodel_newsarticle">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/jsmodel_listarticle">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/jsmodel_newsarticle" />
+    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/jsmodel_listarticle" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/35049517-12f3-4ca9-ade8-ced11973c50a/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -676,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,9 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="10755" selection-end-column="55" />
-          <folding>
-            <element signature="e#146043#167516#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,16 +652,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="9590" column="9" selection-start-line="9590" selection-start-column="4" selection-end-line="9590" selection-end-column="9" />
-          <folding>
-            <element signature="e#146043#167516#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="990">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
@@ -738,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="67" column="47" lean-forward="true" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
           <folding>
             <marker date="1533174707817" expanded="false" signature="3410:3509" ph="..." />
             <marker date="1533174707817" expanded="false" signature="3552:3611" ph="..." />
@@ -759,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="300">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="e#631#663#0" expanded="true" />
@@ -769,22 +698,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+        <state relative-caret-position="2355">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="199">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
