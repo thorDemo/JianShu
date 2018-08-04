@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from .items import JSModel_newsarticle
-from Api_News.Api_News.items import ApiNewsItem, NewsImageItem
+from Api_News.items import ApiNewsItem, NewsImageItem
 from scrapy.pipelines.images import ImagesPipeline
 from scrapy.exceptions import DropItem
 import scrapy
