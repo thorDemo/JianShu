@@ -10,17 +10,14 @@
     <meta name="applicable-device" content="pc,mobile">
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
-    <meta name="mobile-agent" content="format=html5;url=https:///">
+    <meta name="mobile-agent" content="format=html5;url=https://{{ mobile_url }}">
     <!-- End of Baidu Transcode -->
-
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ keywords }}">
 
     <!-- Apple -->
-    <meta name="apple-mobile-web-app-title" content="简书">
-    <title>简书 - 创作你的创作</title>
-    <meta name="csrf-param" content="">
-    <meta name="csrf-token" content="">
+    <meta name="apple-mobile-web-app-title" content="{{ title }}">
     <link rel="stylesheet" media="all" href="{% static 'css/web.css' %}">
     <link rel="stylesheet" media="all" href="{% static 'css/entry.css' %}">
     <link href="{% static 'img/shortcut.ico' %}" rel="shortcut icon" type="image/x-icon">
@@ -52,12 +49,12 @@
                         </div>
                         <div class="item">
                             <div class="banner" data-banner-name="《星星自传》第三期 | 我和童话有个约会-寻麦">
-                                <a target="_blank" href="#"><img src="{% static 'img/full' %}/{{ new_article.0.img.0 }}" alt="540"></a>
+                                <a target="_blank" href="#"><img src="{% static 'img/full' %}/{{ new_article.1.img.0 }}" alt="540"></a>
                             </div>
                         </div>
                         <div class="item active">
                             <div class="banner" data-banner-name="简书×腾讯夏日电影野餐周">
-                                <a target="_blank" href="#"><img src="{% static 'img/full' %}/{{ new_article.0.img.0 }}" alt="540"></a>
+                                <a target="_blank" href="#"><img src="{% static 'img/full' %}/{{ new_article.2.img.0 }}" alt="540"></a>
                             </div>
                         </div>
                     </div>
@@ -103,6 +100,7 @@
                                     </p>
                                     <div class="meta">
                                         <a class="nickname" target="_blank" href="{{ page.url }}">{{ page.author }}</a>
+                                        <a class="nickname" target="_blank" href="{{ page.url }}">{{ page.create_time|date:"Y-m-d H:i:s" }}</a>
                                         <a target="_blank" href="{{ page.url }}">
                                             <i class="iconfont ic-list-comments"></i> {{ page.comment }}
                                         </a>
@@ -132,8 +130,8 @@
                    data-html="true" data-trigger="hover" data-content="" href="">
                     <img class="qrcode" src="{% static 'img/download-index-side-qrcode.png' %}" alt="Download index side qrcode">
                     <div class="info">
-                        <div class="title">下载简书手机App<i class="iconfont ic-link"></i></div>
-                        <div class="description">随时随地发现和创作内容</div>
+                        <div class="title">下载港岛吃货APP<i class="iconfont ic-link"></i></div>
+                        <div class="description">随时随地发现新的美食</div>
                     </div>
                 </a>
                 <!-- 推荐作者 -->
@@ -145,6 +143,7 @@
                     </div>
                     <ul class="list">
 
+                        {{ for }}
                         <li>
                             <a href="#" target="_blank" class="avatar">
                                 <img src="{% static 'img/author-1.jpg' %}">
@@ -153,17 +152,9 @@
                                 <i class="iconfont ic-follow"></i>关注
                             </a>
                             <a href="#" target="_blank" class="name">乔汉童</a>
-                            <p>写了467.4k字 · 1.1k喜欢</p>
+                            <p>写了字 · 1.1k喜欢</p>
                         </li>
-                        <li>
-                            <a href="#" target="_blank" class="avatar">
-                                <img src="{% static 'img/author-2.jpg' %}"></a>
-                            <a class="follow" >
-                                <i class="iconfont ic-follow"></i>关注
-                            </a>
-                            <a href="#" target="_blank" class="name">满航</a>
-                            <p>写了343.9k字 · 2.7k喜欢</p>
-                        </li>
+
 
                     </ul>
                     <a href="#" target="_blank" class="find-more">查看全部<i class="iconfont ic-link"></i></a>
@@ -203,6 +194,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/banner.js' %}" type="text/javascript"></script>
 </body>
 </html>

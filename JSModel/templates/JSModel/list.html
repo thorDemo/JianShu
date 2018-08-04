@@ -117,34 +117,17 @@
             <div>
                 <div><p class="title">管理员</p>
                     <ul class="list collection-editor">
+                        {% for line in xxx %}
                         <li>
                             <a href="#" target="_blank" class="avatar"><img
                                     src="{% static 'img/5210859b-fc54-4cf8-908f-830f0237926a.png' %}"></a>
                             <a href="#" target="_blank" class="name">简书</a>
                             <span class="tag">创建者</span></li>
-                        <li><a href="#" target="_blank" class="avatar"><img
-                                src="{% static 'img/0e79cac4-7f48-4223-99ea-4e314236afbb.jpg' %}"></a> <a
-                                href="#" target="_blank" class="name">爱画画的小医</a>
-                            </li>
-                        <li><a href="#" target="_blank" class="avatar"><img
-                                src="{% static 'img/0e79cac4-7f48-4223-99ea-4e314236afbb.jpg' %}"></a> <a
-                                href="#" target="_blank" class="name">爱画画的小医</a>
-                            </li>
-                        <li><a href="#" target="_blank" class="avatar"><img
-                                src="{% static 'img/0e79cac4-7f48-4223-99ea-4e314236afbb.jpg' %}"></a> <a
-                                href="#" target="_blank" class="name">爱画画的小医</a>
-                            </li>
-                        <li><a href="#" target="_blank" class="avatar"><img
-                                src="{% static 'img/0e79cac4-7f48-4223-99ea-4e314236afbb.jpg' %}"></a> <a
-                                href="#" target="_blank" class="name">爱画画的小医</a>
-                            </li>
-                        <li><a href="#" target="_blank" class="avatar"><img
-                                src="{% static 'img/0e79cac4-7f48-4223-99ea-4e314236afbb.jpg' %}"></a> <a
-                                href="#" target="_blank" class="name">爱画画的小医</a>
-                            </li>
+                        {% endfor %}
 
                         <li><a class="check-more">展开更多 <i class="iconfont ic-show"></i></a> <!----></li>
                     </ul>
+
                 </div>
                 <div>
                     <div class="title">
@@ -178,23 +161,14 @@
                 <div>
                     <div class="title">关注的人(1471597)</div>
                     <ul class="list collection-follower">
-                        <li><a href="#" target="_blank" class="avatar"><img
+                        {% for line in xxx %}
+                        <li>
+                            <a href="#" target="_blank" class="avatar"><img
                                 src="{% static 'img/0523f2d4-47a4-444f-948e-06e3e8eb115b' %}"
                                 data-toggle="tooltip" data-placement="bottom" title=""
                                 data-original-title="顾盼神飞godfather · 1分钟前 关注"></a></li>
-                        <li><a href="#" target="_blank" class="avatar"><img
-                                src="{% static 'img/7db80f82-b0ea-405a-80ed-3bce5acfa0d7' %}"
-                                data-toggle="tooltip" data-placement="bottom" title=""
-                                data-original-title="季若 · 1分钟前 关注"></a></li>
-                        <li><a href="#" target="_blank" class="avatar"><img
-                                src="{% static 'img/0523f2d4-47a4-444f-948e-06e3e8eb115b' %}"
-                                data-toggle="tooltip" data-placement="bottom" title=""
-                                data-original-title="顾盼神飞godfather · 1分钟前 关注"></a></li>
-                        <li><a href="#" target="_blank" class="avatar"><img
-                                src="{% static 'img/7db80f82-b0ea-405a-80ed-3bce5acfa0d7' %}"
-                                data-toggle="tooltip" data-placement="bottom" title=""
-                                data-original-title="季若 · 1分钟前 关注"></a></li>
-
+                        <li>
+                        {% endfor %}
                         <a class="function-btn"><i class="iconfont ic-others"></i></a> <!----></ul>
                 </div>
             </div>

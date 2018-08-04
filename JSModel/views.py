@@ -71,7 +71,7 @@ def author_page(request, author_id):
 
 def show_page(request, article_id):
     try:
-        article = NewsArticle.objects.get(_id__exact=article_id)
+        article = NewsArticle.objects.get(re_id__exact=article_id)
         author = ArticleAuthor.objects.get(author_name__exact=article.author)
         article.author_img = author.author_img
         new_article = NewsArticle.objects.order_by('-create_time')[:4]
