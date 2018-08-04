@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import json
-from Api_News.items import ApiNewsItem, NewsImageItem
+from Api_Newsx.items import ApiNewsItem, NewsImageItem
 from snownlp import SnowNLP
 
 

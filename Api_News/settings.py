@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for Api_News project
+# Scrapy settings for Api_Newsx project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,10 +9,10 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Api_News'
+BOT_NAME = 'Api_Newsx'
 
-SPIDER_MODULES = ['Api_News.spiders']
-NEWSPIDER_MODULE = 'Api_News.spiders'
+SPIDER_MODULES = ['Api_Newsx.spiders']
+NEWSPIDER_MODULE = 'Api_Newsx.spiders'
 
 # MYSQL_HOST = '103.56.136.105'
 # MYSQL_DBNAME = 'news'
@@ -21,7 +21,7 @@ NEWSPIDER_MODULE = 'Api_News.spiders'
 # MYSQL_PORT = 3306
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'Api_News (+http://www.yourdomain.com)'
+#USER_AGENT = 'Api_Newsx (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -55,13 +55,13 @@ DEFAULT_REQUEST_HEADERS = {
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'Api_News.middlewares.ApiNewsSpiderMiddleware': 543,
+#    'Api_Newsx.middlewares.ApiNewsSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'Api_News.middlewares.ApiNewsDownloaderMiddleware': 543,
+#    'Api_Newsx.middlewares.ApiNewsDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -73,8 +73,8 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'Api_News.pipelines.ApiNewsPipeline': 300,
-   'Api_News.pipelines.MyImagesPipeline': 100,
+   'Api_Newsx.pipelines.ApiNewsPipeline': 300,
+   'Api_Newsx.pipelines.MyImagesPipeline': 100,
 }
 # IMAGES_STORE = '/www/wwwroot/Special/JianShu/JSModel/templates/JSModel/static/img/'
 IMAGES_STORE = '/Users/hexiaotian/PycharmProjects/JianShu/JSModel/templates/JSModel/static/img/'
