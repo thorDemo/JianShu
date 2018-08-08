@@ -106,6 +106,7 @@ def show_page(request, article_id):
             'article': article,
             'new_article': new_article,
         }
+        print("--------------  我运行了一次！ --------------")
     except NewsArticle.url:
         raise Http404
     return HttpResponse(template.render(context, request))
