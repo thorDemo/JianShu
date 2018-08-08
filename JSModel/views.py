@@ -24,7 +24,7 @@ def index(request):
         'title': '',
         'keyword': '',
     }
-
+    print("--------------  我运行了一次！ --------------")
     return HttpResponse(template.render(context, request))
 
 
