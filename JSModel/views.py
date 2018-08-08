@@ -28,6 +28,7 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 
+@cache_page(60 * 15)
 def list_page(request, list_name):
     print(list_name)
     try:
