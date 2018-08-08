@@ -28,7 +28,6 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 
-@cache_page(60 * 15)
 def list_page(request, list_name):
     print(list_name)
     try:
@@ -46,10 +45,10 @@ def list_page(request, list_name):
         'list_article': list_article,
         'list_message': list_message
     }
+    print("--------------  我运行了一次！ --------------")
     return HttpResponse(template.render(context, request))
 
 
-@cache_page(60 * 15)
 def author_page(request, author_id):
     url = request.path
     print(url.split('/')[1])
