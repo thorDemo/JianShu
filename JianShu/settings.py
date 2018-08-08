@@ -95,16 +95,6 @@ DATABASES = {
 #         'PORT': '3306',
 #     }
 # }
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'station',
-#         'USER': 'station',
-#         'PASSWORD': 'password',
-#         'HOST': '23.110.211.170',
-#         'PORT': '3306',
-#     }
-# }
 
 
 # Password validation
@@ -148,3 +138,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "JSModel/templates/JSModel/static"),
 )
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+    }
+}

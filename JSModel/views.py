@@ -3,8 +3,10 @@ from django.http import HttpResponse, Http404
 from django.urls import reverse
 from django.template import loader
 from .models import NewsArticle, ListArticle, ArticleAuthor
+from django.views.decorators.cache import cache_page
 
 
+@cache_page(60 * 15)
 def index(request):
     url = request.build_absolute_uri()
     print(url)
@@ -19,11 +21,14 @@ def index(request):
     context = {
         'new_article': new_article,
         'list_article': list_article,
+        'title': '',
+        'keyword': '',
     }
 
     return HttpResponse(template.render(context, request))
 
 
+@cache_page(60 * 15)
 def list_page(request, list_name):
     print(list_name)
     try:
@@ -44,6 +49,7 @@ def list_page(request, list_name):
     return HttpResponse(template.render(context, request))
 
 
+@cache_page(60 * 15)
 def author_page(request, author_id):
     url = request.path
     print(url.split('/')[1])
@@ -69,6 +75,7 @@ def author_page(request, author_id):
     return HttpResponse(template.render(context, request))
 
 
+@cache_page(60 * 15)
 def show_page(request, article_id):
     try:
         article = NewsArticle.objects.get(re_id__exact=article_id)
