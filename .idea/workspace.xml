@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5805b40-8ebb-46d0-ab5f-997a709a5e90" name="Default" comment="">
+    <list default="true" id="d5805b40-8ebb-46d0-ab5f-997a709a5e90" name="Default" comment="db change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianShu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JianShu/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,16 +26,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - station@23.110.211.170" type="feb32156:DbDataSourceImpl" />
+        <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - station@23.110.211.170" type="feb32156:DbDataSourceImpl" />
+        <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - station@23.110.211.170" type="feb32156:DbDataSourceImpl" />
+        <item name="station@127.0.0.1" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="station: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
@@ -49,8 +50,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
-              <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+            <state relative-caret-position="384">
+              <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -58,21 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSModel_articleauthor" pinned="false" current-in-tab="false">
-        <entry file="das://f6c790a9-c67a-464c-9b50-39bc4092d723/schema/station/table/JSModel_articleauthor">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSModel_listarticle" pinned="false" current-in-tab="true">
-        <entry file="das://f6c790a9-c67a-464c-9b50-39bc4092d723/schema/station/table/JSModel_listarticle">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
+      <file leaf-file-name="keyword.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/keyword.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-679" />
           </provider>
         </entry>
       </file>
@@ -84,6 +74,24 @@
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -106,23 +114,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="73">
+              <caret line="77" selection-start-line="77" selection-end-line="86" selection-end-column="1" />
               <folding>
-                <marker date="1533556292771" expanded="true" signature="2458:2694" ph="..." />
+                <marker date="1533745103086" expanded="true" signature="2458:2694" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSModel/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -217,7 +216,6 @@
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-7fb4c1aebb52435f09b0.css" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-b92af14ed8ebe3efb6ff.css" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/web-2b26d78a4d3c053b7b1c.css" />
-        <option value="$PROJECT_DIR$/JSModel/views.py" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/static/js/banner.js" />
         <option value="$PROJECT_DIR$/JianShu/urls.py" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/list.html" />
@@ -231,6 +229,7 @@
         <option value="$PROJECT_DIR$/JSModel/Api_News/settings.py" />
         <option value="$PROJECT_DIR$/JSModel/Api_News/spiders/ApiNews.py" />
         <option value="$PROJECT_DIR$/JSModel/Api_News/pipelines.py" />
+        <option value="$PROJECT_DIR$/JSModel/views.py" />
         <option value="$PROJECT_DIR$/JianShu/settings.py" />
       </list>
     </option>
@@ -277,21 +276,6 @@
               <item name="JianShu" type="462c0819:PsiDirectoryNode" />
               <item name="JSModel" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
-              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
-              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -597,7 +581,21 @@
       <option name="project" value="LOCAL" />
       <updated>1533649220419</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="db change">
+      <created>1533650447285</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1533650447285</updated>
+    </task>
+    <task id="LOCAL-00034" summary="db change">
+      <created>1533743762353</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1533743762353</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView">
@@ -615,15 +613,15 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4169697" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4169697" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.36969697" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32969698" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18240343" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18240343" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.17310444" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17310444" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -682,7 +680,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/6b8fe151ed8a.jpg" />
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -793,21 +790,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Api_News/.idea/vcs.xml" />
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/Api_News/__init__.py" />
     <entry file="file://$PROJECT_DIR$/JSModel/Api_News/items.py" />
     <entry file="file://$PROJECT_DIR$/JSModel/Api_News/apps.py" />
@@ -846,50 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f6c790a9-c67a-464c-9b50-39bc4092d723/schema/station/table/JSModel_articleauthor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <marker date="1533556292771" expanded="true" signature="2458:2694" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://f6c790a9-c67a-464c-9b50-39bc4092d723/schema/station/table/JSModel_newsarticle">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -901,6 +840,69 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f6c790a9-c67a-464c-9b50-39bc4092d723/schema/station/table/JSModel_articleauthor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/keyword.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-679" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="77" selection-start-line="77" selection-end-line="86" selection-end-column="1" />
+          <folding>
+            <marker date="1533745103086" expanded="true" signature="2458:2694" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
