@@ -5,13 +5,26 @@ from django.template import loader
 from .models import NewsArticle, ListArticle, ArticleAuthor
 from django.views.decorators.cache import cache_page
 from django.shortcuts import redirect
+import os
 import random
+import linecache
+# 配置信息
+############
+path = os.path.split(os.path.realpath(__file__))[0]     # 根目录
+keywords_path = '%s/templates/JSModel/static/keywords.txt' % path      # 关键词目录
+############
 
 
-@cache_page(60 * 15)
+@cache_page(60 * 60 * 2)
 def index(request):
+    """
+    缓存时间2小时
+    关键词路径变量 keyword_file  文件keywords.txt
+
+    :param request:
+    :return:
+    """
     url = request.build_absolute_uri()
-    print(url)
     new_article = NewsArticle.objects.order_by('?')[:30]
     template = loader.get_template('JSModel/index.html')
     list_article = ListArticle.objects.order_by('-list_name')[:7]
@@ -20,16 +33,18 @@ def index(request):
         img = line.img.split(',')
         new_article[temp].img = img
         temp += 1
+
     context = {
         'new_article': new_article,
         'list_article': list_article,
-        'title': '',
-        'keyword': '',
+        'title': '香港生活_赌场游戏名字_大世界娱乐平台',
+        'keywords': '最好平台，真人在线，香港生活，香港娱乐，香港赛马，香港美食',
+        'description': '香港生活线上娱乐平台为您提供体育赛事，视讯直播，电子游艺，彩票游戏，香港娱乐，香港赛马，香港美食。香港生活是“亚洲最受玩家喜爱品牌”，如今也成为亚洲最具有领导地位的顶级娱乐平台，拥有15年资深行业经验，8项设计系统保障，在线玩家超过10000+，96%客户满意度，我们将竭诚为您服务，为您提供顶级娱乐享受。',
     }
     return HttpResponse(template.render(context, request))
 
 
-@cache_page(60 * 15)
+@cache_page(60 * 60 * 2)
 def list_page(request, list_name):
     print(list_name)
     try:
@@ -50,6 +65,7 @@ def list_page(request, list_name):
     return HttpResponse(template.render(context, request))
 
 
+@cache_page(60 * 60 * 2)
 def author_page(request, author_id):
     url = request.path
     print(url.split('/')[1])
@@ -113,6 +129,7 @@ def show_page(request, article_id):
         context = {
             'article': article,
             'new_article': new_article,
+            'bc_keyword': get_one_keyword(),
         }
     except NewsArticle.DoesNotExist:
         # 如果没有匹配到默认url  随机重定向到一个内容页
@@ -131,4 +148,18 @@ def random_page(request):
     """
     article = NewsArticle.objects.order_by('?')[0]
     return redirect('/show/%s/' % article.re_id)
+
+
+def get_one_keyword():
+    """
+    随机取一个关键词
+    :return:
+    """
+    count = 0
+    keywords_file = open(keywords_path, 'r+', encoding='utf-8')
+    for line in keywords_file:
+        count += 1
+    line = random.randint(1, count-1)
+    keyword = linecache.getlines(keywords_path)[line].strip('\n')
+    return keyword
 

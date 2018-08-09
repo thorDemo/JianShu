@@ -10,9 +10,9 @@
     <meta name="applicable-device" content="pc,mobile">
     <meta name="MobileOptimized" content="width">
 
-    <title>{{ article.title }}</title>
-    <meta name="keyword" content="{{ article.keyword }}">
-    <meta name="description" content="{{ article.description|truncatechars:100 }}">
+    <title>{{ article.title }}_{{ bc_keyword }}</title>
+    <meta name="keyword" content="{{ article.keyword }}_{{ bc_keyword }}">
+    <meta name="description" content="{{ article.description|truncatechars:100 }}_{{ bc_keyword }}">
 
     <link rel="stylesheet" media="all" href="{% static 'css/web-2b26d78a4d3c053b7b1c.css' %}">
     <link rel="stylesheet" media="all" href="{% static 'css/entry-7fb4c1aebb52435f09b0.css' %}">
@@ -72,7 +72,7 @@
                                 <div class="image-container" style="max-width: 500px; max-height: 377px; background-color: transparent;">
                                     <div class="image-container-fill" style="padding-bottom: 75.4%;"></div>
                                     <div class="image-view" data-width="500" data-height="377">
-                                        <img width=100% height=100% data-original-format="image/jpeg" data-original-filesize="27968" class="" style="cursor: zoom-in;" src="{{ line }}">
+                                        <img width=100% height=100% data-original-format="image/jpeg" data-original-filesize="27968" alt="{{ article.title }}_{{ bc_keyword }}" style="cursor: zoom-in;" src="{{ line }}">
                                     </div>
                                 </div>
                                 <div class="image-caption">图/网络</div>
@@ -81,6 +81,7 @@
                             <p>{{ line|urlizetrunc:15 }}</p>
                         {% endif %}
                     {% endfor %}
+
                 </div>
             </div>
         </div>
