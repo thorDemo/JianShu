@@ -143,9 +143,7 @@ def show_page(request, article_id):
 
 def spider_page(request):
     template = loader.get_template('JSModel/logs.html')
-    context = {
-
-    }
+    context = {}
     return HttpResponse(template.render(context, request))
 
 
@@ -172,12 +170,11 @@ def spider_data(request, method):
         res['sogou'] = number[21:28]
     elif method == 'hou':
         for typ in spider_name:
+            print("loading spider number ...")
             for date in spider.twenty_four_hours():
                 order = 'cat /www/wwwlogs/%s-access_log |grep %s|grep %s|wc -l' % (url, typ, date)
-                print(order)
                 pi = Popen(order, shell=True, stdout=PIPE)
                 result = int(pi.stdout.read())
-                print(result)
                 number.append(result)
         res['category'] = spider.twenty_four_hours()
         res['Baidu'] = number[0:24]

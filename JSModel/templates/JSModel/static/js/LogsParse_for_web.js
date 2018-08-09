@@ -130,3 +130,61 @@ $.getJSON('/spider_data/day/', function (data) {
     });
 });
 
+function day() {
+    $.getJSON('/spider_data/day/', function (data) {
+        myChart.hideLoading();
+        myChart.setOption({
+            title: {
+                subtext: '最近7天的数据'
+            },
+            xAxis: [{
+                data: data['category']
+            }],
+            series: [
+                {
+                    name: '百度蜘蛛',
+                    data: data['Baidu'],
+                }, {
+                    name: '神马蜘蛛',
+                    data: data['Yisou'],
+                }, {
+                    name: '360蜘蛛',
+                    data: data['Yisou'],
+                }, {
+                    name: '搜狗蜘蛛',
+                    data: data['Yisou'],
+                },
+            ],
+        });
+    });
+}
+
+function hours() {
+    $.getJSON('/spider_data/hou/', function (data) {
+        myChart.hideLoading();
+        myChart.setOption({
+            title: {
+                subtext: '最近7天的数据'
+            },
+            xAxis: [{
+                data: data['category']
+            }],
+            series: [
+                {
+                    name: '百度蜘蛛',
+                    data: data['Baidu'],
+                }, {
+                    name: '神马蜘蛛',
+                    data: data['Yisou'],
+                }, {
+                    name: '360蜘蛛',
+                    data: data['Yisou'],
+                }, {
+                    name: '搜狗蜘蛛',
+                    data: data['Yisou'],
+                },
+            ],
+        });
+    });
+}
+

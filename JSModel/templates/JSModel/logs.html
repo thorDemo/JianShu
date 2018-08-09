@@ -14,8 +14,8 @@
     <meta name="description" content="">
     <title>蜘蛛日志分析</title>
 
-    <link rel="stylesheet" media="all" href="{% static 'css/web-2b26d78a4d3c053b7b1c.css' %}">
-    <link rel="stylesheet" media="all" href="{% static '/css/entry-b92af14ed8ebe3efb6ff.css' %}">
+    <link rel="stylesheet" media="all" href="{% static '/css/web.css' %}">
+    <link rel="stylesheet" media="all" href="{% static '/css/entry-log.css' %}">
     <link href="{% static 'img/shortcut.ico' %}" rel="shortcut icon" type="image/x-icon">
     <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_57x57.png' %}" sizes="57x57">
     <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_72x72.png' %}" sizes="72x72">
@@ -27,9 +27,18 @@
 <body>
     <!-- 全局顶部导航栏 -->
     {% include 'JSModel/header.html' %}
-    <div id="chart-panel" style="width: 1200px; height: 700px; margin: auto; padding-top: 50px;">
-
+    <div id="chart-panel" style="width: 1200px; height: 700px; margin: auto; padding-top: 20px;"></div>
+    <div class="recommend-collection" style="margin: auto; width: 300px;">
+        <a class="collection" target="_blank" onclick="day()" style="margin-right: 50px">
+            <img src="{% static '/img/0b444f3a9032.jpg' %}" alt="64">
+            <div class="name">24H</div>
+        </a>
+        <a class="collection" target="_blank"  onclick="hours()">
+        <img src="{% static '/img/yule.jpg' %}" alt="64">
+        <div class="name">7日</div>
+    </a>
     </div>
+
 </body>
         <script type="text/javascript" src="{% static  '/js/jquery-3.3.1.min.js' %}"></script>
         <script type="text/javascript" src="{% static '/js/echarts.js' %}"></script>
