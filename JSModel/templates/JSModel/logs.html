@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    {% load static %}
+    <!-- Start of Baidu Transcode -->
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="mobile-agent" content="">
+    <!-- End of Baidu Transcode -->
+    <meta name="description" content="">
+    <title>蜘蛛日志分析</title>
+
+    <link rel="stylesheet" media="all" href="{% static 'css/web-2b26d78a4d3c053b7b1c.css' %}">
+    <link rel="stylesheet" media="all" href="{% static '/css/entry-b92af14ed8ebe3efb6ff.css' %}">
+    <link href="{% static 'img/shortcut.ico' %}" rel="shortcut icon" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_57x57.png' %}" sizes="57x57">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_72x72.png' %}" sizes="72x72">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_76x76.png' %}" sizes="76x76">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_114x114.png' %}" sizes="114x114">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_120x120.png' %}" sizes="120x120">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img/logo_152x152.png' %}" sizes="152x152">
+</head>
+<body>
+    <!-- 全局顶部导航栏 -->
+    {% include 'JSModel/header.html' %}
+    <div id="chart-panel" style="width: 1200px; height: 700px; margin: auto; padding-top: 50px;">
+
+    </div>
+</body>
+        <script type="text/javascript" src="{% static  '/js/jquery-3.3.1.min.js' %}"></script>
+        <script type="text/javascript" src="{% static '/js/echarts.js' %}"></script>
+        <script type="text/javascript" src='{% static '/js/LogsParse_for_web.js' %}'></script>
+</html>

@@ -8,6 +8,9 @@ from django.shortcuts import redirect
 import os
 import random
 import linecache
+import json
+from subprocess import PIPE, Popen
+from JSModel.spider import Spider
 # 配置信息
 ############
 path = os.path.split(os.path.realpath(__file__))[0]     # 根目录
@@ -136,6 +139,57 @@ def show_page(request, article_id):
         article = NewsArticle.objects.order_by('?')[0]
         return redirect('/show/%s/' % article.re_id)
     return HttpResponse(template.render(context, request))
+
+
+def spider_page(request):
+    template = loader.get_template('JSModel/logs.html')
+    context = {
+
+    }
+    return HttpResponse(template.render(context, request))
+
+
+def spider_data(request, method):
+    number = []
+    res = dict
+    url = 'www.rarule.com'
+    spider_name = ['Baiduspider', 'Yisouspider', '360spider', 'sogou']
+    spider = Spider()
+    if method == 'day':
+        for typ in spider_name:
+            for date in spider.seven_day():
+                order = 'cat /www/wwwlogs/%s-access_log |grep %s|grep %s|wc -l' % (url, typ, date)
+                print(order)
+                pi = Popen(order, shell=True, stdout=PIPE)
+                result = int(pi.stdout.read())
+                print(result)
+                number.append(result)
+        res = {
+            'category': spider.seven_day(),
+            'Baidu': number[0:7],
+            'Yisou': number[7:14],
+            'Sp360': number[14:21],
+            'sogou': number[21:28],
+        }
+    elif method == 'hou':
+        for typ in spider_name:
+            for date in spider.twenty_four_hours():
+                order = 'cat /www/wwwlogs/%s-access_log |grep %s|grep %s|wc -l' % (url, typ, date)
+                print(order)
+                pi = Popen(order, shell=True, stdout=PIPE)
+                result = int(pi.stdout.read())
+                print(result)
+                number.append(result)
+        res = {
+            'category': spider.twenty_four_hours(),
+            'Baidu': number[0:24],
+            'Yisou': number[24:48],
+            'Sp360': number[48:72],
+            'sogou': number[72:96],
+        }
+    else:
+        return Http404
+    return HttpResponse(json.dumps(res))
 
 
 @cache_page(60 * 60 * 2)
