@@ -4,6 +4,8 @@ from django.urls import reverse
 from django.template import loader
 from .models import NewsArticle, ListArticle, ArticleAuthor
 from django.views.decorators.cache import cache_page
+from django.shortcuts import redirect
+import random
 
 
 @cache_page(60 * 15)
@@ -24,7 +26,6 @@ def index(request):
         'title': '',
         'keyword': '',
     }
-    print("--------------  我运行了一次！ --------------")
     return HttpResponse(template.render(context, request))
 
 
@@ -46,7 +47,6 @@ def list_page(request, list_name):
         'list_article': list_article,
         'list_message': list_message
     }
-    print("--------------  我运行了一次！ --------------")
     return HttpResponse(template.render(context, request))
 
 
@@ -75,8 +75,16 @@ def author_page(request, author_id):
     return HttpResponse(template.render(context, request))
 
 
-@cache_page(60 * 15)
+@cache_page(60 * 60 * 2)
 def show_page(request, article_id):
+    """
+    内容页管理程序
+    缓存时间2小时
+    如果没有找到指定id的内容页 随机重定向到一个内容页
+    :param request:
+    :param article_id:
+    :return:
+    """
     try:
         article = NewsArticle.objects.get(re_id__exact=article_id)
         author = ArticleAuthor.objects.get(author_name__exact=article.author)
@@ -106,7 +114,21 @@ def show_page(request, article_id):
             'article': article,
             'new_article': new_article,
         }
-        print("--------------  我运行了一次！ --------------")
-    except NewsArticle.url:
-        raise Http404
+    except NewsArticle.DoesNotExist:
+        # 如果没有匹配到默认url  随机重定向到一个内容页
+        article = NewsArticle.objects.order_by('?')[0]
+        return redirect('/show/%s/' % article.re_id)
     return HttpResponse(template.render(context, request))
+
+
+@cache_page(60 * 60 * 2)
+def random_page(request):
+    """
+    如果没有匹配到默认url  随机重定向到一个内容页
+    内容页缓存时间2小时
+    :param request:
+    :return:
+    """
+    article = NewsArticle.objects.order_by('?')[0]
+    return redirect('/show/%s/' % article.re_id)
+
