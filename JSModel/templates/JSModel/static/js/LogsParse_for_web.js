@@ -131,6 +131,7 @@ $.getJSON('/spider_data/day/', function (data) {
 });
 
 function day() {
+    myChart.showLoading();
     $.getJSON('/spider_data/day/', function (data) {
         myChart.hideLoading();
         myChart.setOption({
@@ -160,6 +161,7 @@ function day() {
 }
 
 function hours() {
+    myChart.showLoading();
     $.getJSON('/spider_data/hou/', function (data) {
         myChart.hideLoading();
         myChart.setOption({
