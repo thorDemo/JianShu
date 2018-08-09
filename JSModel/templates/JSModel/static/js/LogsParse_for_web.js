@@ -1,6 +1,7 @@
 /* 二维图表 */
+let myChart = echarts.init(document.getElementById('chart-panel'));
+
 window.onload = function () {
-    let myChart = echarts.init(document.getElementById('chart-panel'));
     myChart.setOption({
         title: {
             text: '蜘蛛数量统计',
@@ -102,11 +103,9 @@ window.onload = function () {
     })
 };
 
-$.get('/spider/day/', function (data) {
-    let myChart = echarts.init(document.getElementById('chart-panel'));
-    let spider_data = JSON.parse(data);
+$.getJSON('/spider_data/day/', function (data) {
     myChart.hideLoading();
-    myChart.setOptions({
+    myChart.setOption({
         title:{
             subtext: '最近7天的数据'
         },

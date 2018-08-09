@@ -150,8 +150,9 @@ def spider_page(request):
 
 
 def spider_data(request, method):
+    print('----- I`m take in ! ------')
     number = []
-    res = dict
+    res = {}
     url = 'www.rarule.com'
     spider_name = ['Baiduspider', 'Yisouspider', '360spider', 'sogou']
     spider = Spider()
@@ -164,13 +165,11 @@ def spider_data(request, method):
                 result = int(pi.stdout.read())
                 print(result)
                 number.append(result)
-        res = {
-            'category': spider.seven_day(),
-            'Baidu': number[0:7],
-            'Yisou': number[7:14],
-            'Sp360': number[14:21],
-            'sogou': number[21:28],
-        }
+        res['category'] = spider.seven_day()
+        res['Baidu'] = number[0:7]
+        res['Yisou'] = number[7:14]
+        res['Sp360'] = number[14:21]
+        res['sogou'] = number[21:28]
     elif method == 'hou':
         for typ in spider_name:
             for date in spider.twenty_four_hours():
@@ -180,13 +179,11 @@ def spider_data(request, method):
                 result = int(pi.stdout.read())
                 print(result)
                 number.append(result)
-        res = {
-            'category': spider.twenty_four_hours(),
-            'Baidu': number[0:24],
-            'Yisou': number[24:48],
-            'Sp360': number[48:72],
-            'sogou': number[72:96],
-        }
+        res['category'] = spider.twenty_four_hours()
+        res['Baidu'] = number[0:24]
+        res['Yisou'] = number[24:48]
+        res['Sp360'] = number[48:72]
+        res['sogou'] = number[72:96]
     else:
         return Http404
     return HttpResponse(json.dumps(res))
