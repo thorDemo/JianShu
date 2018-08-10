@@ -15,6 +15,7 @@ from JSModel.spider import Spider
 ############
 path = os.path.split(os.path.realpath(__file__))[0]     # 根目录
 keywords_path = '%s/templates/JSModel/static/keywords.txt' % path      # 关键词目录
+re_url = 'www.rarule.com'   # 改为站群的域名
 ############
 
 
@@ -116,7 +117,6 @@ def show_page(request, article_id):
         text = article.context.split('。')
         text_num = len(text)
         img_num = len(img)
-        print('%s %s' % (text_num, img_num))
         for x in range(0, img_num):
             text.insert(int(text_num/img_num)*x, '<img/>')
         temp = 0
@@ -148,16 +148,14 @@ def spider_page(request):
 
 
 def spider_data(request, method):
-    print('----- I`m take in ! ------')
     number = []
     res = {}
-    url = 'www.rarule.com'
     spider_name = ['Baiduspider', 'Yisouspider', '360spider', 'sogou']
     spider = Spider()
     if method == 'day':
         for typ in spider_name:
             for date in spider.seven_day():
-                order = 'cat /www/wwwlogs/%s-access_log |grep %s|grep %s|wc -l' % (url, typ, date)
+                order = 'cat /www/wwwlogs/%s-access_log |grep %s|grep %s|wc -l' % (re_url, typ, date)
                 print(order)
                 pi = Popen(order, shell=True, stdout=PIPE)
                 result = int(pi.stdout.read())

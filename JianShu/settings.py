@@ -25,7 +25,7 @@ SECRET_KEY = '^bn+f6d-_7b5qbc4&i6nb#-)u3t9cz-rtz4-#njmc53-8x_zk2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'www.aht33.cn', '142.234.255.29', 'm.aht33.cn', 'ubuntu:8000']
+ALLOWED_HOSTS = ['127.0.0.1', 'www.ahs33.cn', '23.110.211.170', 'm.ahs33.cn', 'ubuntu:8000']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'Middleware.SpiderMiddleware.Row1',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

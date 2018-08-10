@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5805b40-8ebb-46d0-ab5f-997a709a5e90" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-log.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middleware/SpiderMiddleware.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/logs.html" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/logs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSModel/templates/JSModel/static/js/LogsParse_for_web.js" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/templates/JSModel/static/js/LogsParse_for_web.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSModel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSModel/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JianShu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JianShu/settings.py" afterDir="false" />
     </list>
@@ -56,6 +54,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSModel/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1485">
+              <caret line="99" column="7" lean-forward="true" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/spider.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,23 +84,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logs.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/logs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="337">
+              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="15" column="57" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="15" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -99,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/JSModel/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -107,13 +108,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+            <state relative-caret-position="405">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding>
-                <marker date="1533822809031" expanded="true" signature="2477:2695" ph="..." />
+                <marker date="1533885255650" expanded="true" signature="2517:2735" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiderMiddleware.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Middleware/SpiderMiddleware.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,14 +144,14 @@
       <file leaf-file-name="LogsParse_for_web.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/js/LogsParse_for_web.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="195">
+              <caret line="192" selection-start-line="192" selection-end-line="192" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#140#2783#0" />
                 <element signature="e#2826#2908#0" />
-                <element signature="e#3461#4023#0" />
-                <element signature="e#4202#4866#0" />
+                <element signature="n#!!block;n#f#0" />
+                <element signature="n#!!block;n#f#0" />
               </folding>
             </state>
           </provider>
@@ -141,8 +163,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -177,6 +199,7 @@
       <find>meta</find>
       <find>1_58529252</find>
       <find>宝马会</find>
+      <find>clu</find>
     </findStrings>
     <replaceStrings>
       <replace>#</replace>
@@ -189,8 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Modle1/urls.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3a6f9e86-b040-46cb-8591-a919b2c988db/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6747987b-4346-4839-8d0a-2c0a3fef31b7/console.sql" />
         <option value="$PROJECT_DIR$/Modle1/models.py" />
         <option value="$PROJECT_DIR$/Model1/apps.py" />
@@ -235,11 +256,13 @@
         <option value="$PROJECT_DIR$/JSModel/read_file.py" />
         <option value="$PROJECT_DIR$/JSModel/spider.py" />
         <option value="$PROJECT_DIR$/JSModel/urls.py" />
-        <option value="$PROJECT_DIR$/JSModel/templates/JSModel/static/js/LogsParse_for_web.js" />
-        <option value="$PROJECT_DIR$/JSModel/views.py" />
-        <option value="$PROJECT_DIR$/JianShu/settings.py" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-log.css" />
         <option value="$PROJECT_DIR$/JSModel/templates/JSModel/logs.html" />
+        <option value="$PROJECT_DIR$/JSModel/templates/JSModel/static/js/LogsParse_for_web.js" />
+        <option value="$PROJECT_DIR$/Middleware/SpiderMiddleware.py" />
+        <option value="$PROJECT_DIR$/JSModel/views.py" />
+        <option value="$PROJECT_DIR$/JSModel/templates/JSModel/freehao123.html" />
+        <option value="$PROJECT_DIR$/JianShu/settings.py" />
       </list>
     </option>
   </component>
@@ -253,8 +276,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="75" />
+    <option name="y" value="36" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -747,7 +772,28 @@
       <option name="project" value="LOCAL" />
       <updated>1533822123222</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="添加日志分析后台">
+      <created>1533829232725</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1533829232725</updated>
+    </task>
+    <task id="LOCAL-00046" summary="添加日志分析后台">
+      <created>1533829512734</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1533829512734</updated>
+    </task>
+    <task id="LOCAL-00047" summary="添加日志分析后台">
+      <created>1533829585084</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1533829585084</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -771,7 +817,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31272727" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17818181" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.36969697" />
@@ -845,21 +891,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/jsmodel_articleauthor" />
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://35049517-12f3-4ca9-ade8-ced11973c50a/schema/station/table/jsmodel_listarticle" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/35049517-12f3-4ca9-ade8-ced11973c50a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/js/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/css/entry-7fb4c1aebb52435f09b0.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -996,32 +1027,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
           <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
           <folding>
             <marker date="1533800490365" expanded="false" signature="3811:3898" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1053,47 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="15" column="57" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-          <folding>
-            <marker date="1533822809031" expanded="true" signature="2477:2695" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/js/LogsParse_for_web.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#2783#0" />
-            <element signature="e#2826#2908#0" />
-            <element signature="e#3461#4023#0" />
-            <element signature="e#4202#4866#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/yule.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1109,13 +1079,6 @@
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/banner-s-3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -1123,12 +1086,158 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-953">
+          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/logs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        <state relative-caret-position="337">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/django/views/decorators/cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/js/LogsParse_for_web.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#2783#0" />
+            <element signature="e#2826#2908#0" />
+            <element signature="n#!!block;n#f#0" />
+            <element signature="n#!!block;n#f#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/django/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/django/middleware/security.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middleware/SpiderMiddleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/freehao123.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2202">
+          <caret line="150" column="4" lean-forward="true" selection-start-line="150" selection-start-column="4" selection-end-line="150" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#7;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#8;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#9;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#11;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#12;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#13;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#12302#12308#0#HTML" expanded="true" />
+            <element signature="e#12325#12331#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#12418#12425#0#HTML" expanded="true" />
+            <element signature="e#12430#12436#0#HTML" expanded="true" />
+            <element signature="e#12774#12780#0#HTML" expanded="true" />
+            <element signature="e#12780#12786#0#HTML" expanded="true" />
+            <element signature="e#12786#12792#0#HTML" expanded="true" />
+            <element signature="e#12792#12798#0#HTML" expanded="true" />
+            <element signature="e#12798#12804#0#HTML" expanded="true" />
+            <element signature="e#12804#12810#0#HTML" expanded="true" />
+            <element signature="e#12810#12816#0#HTML" expanded="true" />
+            <element signature="e#12816#12822#0#HTML" expanded="true" />
+            <element signature="e#12822#12828#0#HTML" expanded="true" />
+            <element signature="e#12828#12834#0#HTML" expanded="true" />
+            <element signature="e#12834#12840#0#HTML" expanded="true" />
+            <element signature="e#12840#12846#0#HTML" expanded="true" />
+            <element signature="e#12846#12852#0#HTML" expanded="true" />
+            <element signature="e#12852#12858#0#HTML" expanded="true" />
+            <element signature="e#12858#12864#0#HTML" expanded="true" />
+            <element signature="e#12864#12870#0#HTML" expanded="true" />
+            <element signature="e#12870#12876#0#HTML" expanded="true" />
+            <element signature="e#12876#12882#0#HTML" expanded="true" />
+            <element signature="e#12882#12888#0#HTML" expanded="true" />
+            <element signature="e#12888#12894#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#20762#20768#0#HTML" expanded="true" />
+            <element signature="e#20768#20774#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="7" lean-forward="true" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <marker date="1533885255650" expanded="true" signature="2517:2735" ph="..." />
           </folding>
         </state>
       </provider>
