@@ -1,0 +1,46 @@
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+.detailGlide {
+	width: 100%;
+	overflow: hidden;
+}
+#detailNav {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.slider__item {
+	cursor: pointer;
+}
+.slider__item a {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.slider__item img {
+	width: 100%;
+	height: auto;
+}
+.slider__nav {
+	display: block;
+	bottom: 0px;
+	left: 0px;
+	margin: 0px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+	text-align: center;
+}
+.slider__nav-item {
+	width: auto;
+	overflow: hidden;
+	height: 60px;
+	margin: 10px 10px 15px 0px;
+	border: 5px solid #333;
+}
+.slider__nav-item--current {
+	border: 5px solid #ff0000;
+}
+.slider__nav-item:hover {
+	border: 5px solid #990000;
+}

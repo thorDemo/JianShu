@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    {% load static %}
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="keywords" content="{$keywords}"/>
+    <meta name="author" content="order by dede58.com"/>
+    <meta name="description" content="{$description}"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="{% static '/css/bootstrap.css' %}" rel="stylesheet"/>
+    <link href="{% static '/css/glide.css' %}" rel="Stylesheet"/>
+    <link href="{% static '/css/style.css' %}" rel="Stylesheet"/>
+    <script src="{% static '/js/jquery.min.js' %}"></script>
+    <script src="{% static '/js/bootstrap.js' %}"></script>
+    <script src="{% static '/js/jquery.glide.js' %}}"></script>
+</head>
+<body>
+<header> {% include "Company/head.html" %}</header>
+<div class="banner">
+    <div class="slider">
+        <ul class="slider__wrapper">
+            {% for arc in arc_list %}
+            <li class="slider__item"><a target="_self" title="" href="" style="background-image:url({{ arc.img }})"><img
+                    src="{% static '/images/0.png' %}"/></a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<script>
+    let glide = $('.slider').glide();
+</script>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="aboutBox">
+                <div class="titleBar">
+                    <h1> 公司简介</h1>
+                    <span>ABOUT US</span>
+                </div>
+                <section>
+                    <img src="{% static '/images/about.png' %}" alt="" width="352" height="267" title="" align=""/>
+                    <p class="aboutContent" style="
+    width: 750px;
+    float: right;
+">
+                        <span style="color: rgb(51, 51, 51); font-family: 'Microsoft YaHei'; font-size: 15px; line-height: 30px;">{网站名称}{公司简介短}</span>
+                        <br>
+                        <a href="{{ random_url }}" class="aboutMore">了解我们更多&gt;&gt;</a>
+                    </p>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="indexProduct">
+                <div class="titleBar">
+                    <h1> 产品展示</h1>
+                    <span>PRODUCT DISPLAY</span>
+                    <div class="bottomButtonBox">
+                        <a id="bottomProductBtn1" class="bottomButton selectedBottomButton">推荐</a>
+                        <a id="bottomProductBtn2" class="bottomButton" style="margin-right: 95px;">热销</a>
+                        <a id="bottomProductBtn3" class="bottomButton" style="margin-right: 175px;">新品</a>
+                    </div>
+                </div>
+                <div class="productList" id="bottomProductList1">
+                    {% for product in productList %}
+                        <div class="col-sm-4 col-md-3 col-mm-6 productImg">
+                            <a title="{{ product.title }}" href='{{ product.url }}'>
+                                <span class="imgLink-hover"></span>
+                                <span class="hover-link"></span>
+                                <img src="{{ product.img }}" alt="{{ product.alt }}">
+                            </a>
+                            <a class="productTitle" href="{{ product.title }}" title="{{ product.title }}">{{ product.title }}</a>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="productList" id="bottomProductList2" style="display: none">
+                    {% for product in productList %}
+                        <div class="col-sm-4 col-md-3 col-mm-6 productImg">
+                            <a title="{{ product.title }}" href='{{ product.url }}'>
+                                <span class="imgLink-hover"></span>
+                                <span class="hover-link"></span>
+                                <img src="{{ product.img }}" alt="{{ product.alt }}">
+                            </a>
+                            <a class="productTitle" href="{{ product.title }}" title="{{ product.title }}">{{ product.title }}</a>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="productList" id="bottomProductList3" style="display: none">
+                    {% for product in productList %}
+                        <div class="col-sm-4 col-md-3 col-mm-6 productImg">
+                            <a title="{{ product.title }}" href='{{ product.url }}'>
+                                <span class="imgLink-hover"></span>
+                                <span class="hover-link"></span>
+                                <img src="{{ product.img }}" alt="{{ product.alt }}">
+                            </a>
+                            <a class="productTitle" href="{{ product.title }}" title="{{ product.title }}">{{ product.title }}</a>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="indexNavigationGroup" id="classification">
+                <div class="titleBar">
+                    <h1> 导航栏目</h1>
+                    <span>PRODUCT NAVIGATION</span></div>
+                <div class="navigationBox">
+                    <div class="list">
+                        <ul id="firstpane">
+                            {% for product in productList %}
+                            <li><a class='' href='{{ product.url }}'>{{ product.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-7">
+            <div class="newsBox">
+                <div class="titleBar">
+                    <h1> 新闻中心</h1>
+                    <span>NEWS CENTER</span></div>
+                <ul class="indexNews">
+                    <!-- 4 -->
+                    {% for new in indexNews %}
+                    <li><a href="{{ new.url }}" title="{{ new.title }}">{{ new.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-5">
+            <div class="indexContact">
+                <div class="titleBar">
+                    <h1> 联系我们</h1>
+                    <span>CONTACT US</span></div>
+                <p style="height: 20px; width: 100%; padding: 0; margin: 0"></p>
+                <p style="white-space:normal;"><span style="line-height:1.5;">电话：{联系电话}</span></p>
+                <p style="white-space:normal;"> 热线：{联系电话} </p>
+                <p style="white-space:normal;"> 邮箱：{联系邮箱} </p>
+                <p style="white-space:normal;"> 地址：{联系地址} </p>
+            </div>
+            <div class="btn-group dropup" style="margin-bottom: 15px;">
+                <button type="button" class="btn btn-default btn-sm" data-toggle="dropdown" aria-expanded="false"
+                        style="line-height: 13px;"> &nbsp;&nbsp;&nbsp;&nbsp;友情链接&nbsp;&nbsp;&nbsp;&nbsp;
+                </button>
+                <button type="button" class="btn btn-default dropdown-toggle btn-sm" style="line-height: 13px;"><span
+                        class="caret"></span><span class="sr-only">友情链接</span></button>
+                <ul class="dropdown-menu" role="menu">
+                    {% for domain in domains %}
+                    <a href="{{ domain.url }}" target="_blank">{{ domain.title }}</a>
+                    {% endfor %}
+                    {% for domain in domains %}
+                    <a href="{{ domain.url }}" target="_blank">{{ domain.title }}</a>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="{% static '/js/common.js' %}"></script>
+<!--电脑版-->
+<footer> {% include 'Company/footer.html' %}</footer>
+</body>
+</html>

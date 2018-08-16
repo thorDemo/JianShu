@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{$toptitle}</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="{$keywords}" />
+    <meta name="description" content="{$description}" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="{$theme_path}/skin/css/bootstrap.css" rel="stylesheet" />
+    <link href="{$theme_path}/skin/css/glide.css" rel="Stylesheet" />
+    <link href="{$theme_path}/skin/css/style.css" rel="Stylesheet" />
+    <script src="{$theme_path}/skin/js/jquery.min.js"></script>
+
+    <script src="{$theme_path}/skin/js/bootstrap.js"></script>
+
+    <script src="{$theme_path}/skin/js/jquery.glide.js"></script>
+
+</head>
+<body>
+    
+<header>
+{include file="head.html" }
+</header>
+
+    <div class="bannerImg" style="background-image: url({$theme_path}/skin/images/2.jpg);">
+        <a href="#">
+            <img src="{$theme_path}/skin/images/1.png" /></a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mobile">
+                <div class="positionBox">
+                    <div class="positionBar">
+                        <span class="title">当前位置</span> <span><a href="/">首页</a> > <a href="{$typeurl}">{$typename}新闻动态</a>
+                        </span><span class="moreMenu" id="classification" show-txt="展开更多菜单" hide-txt="关闭更多菜单">
+                            展开更多菜单</span>
+                    </div>
+                </div>
+                <div class="navigationBox">
+                    <div class="list">
+                        <ul id="firstpane">
+                        
+                         {loop type="typename" row="6"}
+                            <li><a class='' href='{$vo.typeurl}'>{$vo.typename}</a></li>
+                            {/loop}
+                        </ul>
+                    </div>
+                </div>
+                <div class="recommendNews">
+                    <div class="slider">
+                        <ul class="slider__wrapper">
+                            
+                                     {loop type="arclist" row="4" image=1 info=1}
+                                    <li class="slider__item"><a class="newsImg" href="{$vo.url}">
+                                        <img src="{$vo.pic}" /></a>
+                                        <p>
+                                            <a class="newsTitle" href="{$vo.url}">{$vo.title}</a><br />
+  	{$vo.info}...</p>
+                                        <br />
+                                        <a href="{$vo.url}"
+                                            class="more">READ MORE</a> </li>
+                                            {/loop}
+                                
+
+                                
+                        </ul>
+                    </div>
+
+                    <script type="text/javascript">
+                    var glide = $('.slider').glide({ arrows:false,navigationCenter:false});
+                    if($('.slider ul').children().length==0){ $('.slider').hide()};
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="newsList">
+                    <ul>
+                        
+                              {loop type="arclist" info=1}
+                                <li><a class="wrapper" href="{$vo.url}">
+                                    <div class="time"> <div class="day">{date('d')}</div>
+                                    <div class="date">{date('Y/m')}</div>
+                                    </div>
+                    <div class="tit"><span>{$vo.title}</span></div>
+                    <p>{$vo.info}</p>
+                                </a></li>
+								{/loop}
+                            
+                               
+                            
+                    </ul>
+                </div>
+                <div class="dede_pages"><ul class=pagelist>{loop type="typename" }<a href="{$vo.typeurl}">[{$k+1}]</a>{/loop}</ul></div>
+            </div>
+        </div>
+    </div>
+    
+
+<script type="text/javascript" src="{$theme_path}/skin/js/common.js"></script>
+
+<!--电脑版-->
+{include file="kf.html" } 
+<footer>
+{include file="footer.html" } 
+</footer>
+
+</body>
+</html>

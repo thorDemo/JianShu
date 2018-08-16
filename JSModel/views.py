@@ -15,7 +15,7 @@ from JSModel.spider import Spider
 ############
 path = os.path.split(os.path.realpath(__file__))[0]     # 根目录
 keywords_path = '%s/templates/JSModel/static/keywords.txt' % path      # 关键词目录
-re_url = 'www.rarule.com'   # 改为站群的域名
+re_url = 'www.aidshe.com'   # 改为站群的域名
 ############
 
 
@@ -150,7 +150,7 @@ def spider_page(request):
 def spider_data(request, method):
     number = []
     res = {}
-    spider_name = ['Baiduspider', 'Yisouspider', '360spider', 'sogou']
+    spider_name = ['Baiduspider', 'Yisouspider', '360Spider', 'sogou']
     spider = Spider()
     if method == 'day':
         for typ in spider_name:

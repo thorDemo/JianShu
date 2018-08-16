@@ -1,0 +1,35 @@
+
+<nav class="navbar navbar-fixed-top navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="/">{网站名称}</a> </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/">网站首页</a></li>
+        <li>{loop type="typename" row="1" }<a href="{$vo.typeurl}" tpl="product_list">{$vo.typename}</a>{/loop}</li>
+        <li class="dropdown">{loop type="typename" row="1"  tpl="product_list"}<a href="{$vo.typeurl}" class="dropdown-toggle" data-toggle="dropdown">{$vo.typename}</a>{/loop}<a href="#" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-menu-down btn-xs"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            {loop type="typename"  tpl="product_list"}
+            <li><a class='' href='{$vo.typeurl}'><span>· </span>{$vo.typename}</a></li>
+            {/loop}
+          </ul>
+        </li>
+        <li class="dropdown">{loop type="typename" row="1" tpl="product_list"}<a href="{$vo.typeurl}" class="dropdown-toggle" data-toggle="dropdown">{$vo.typename}</a>{/loop}<a href="#" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-menu-down btn-xs"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            {loop type="typename" tpl="product_list"}
+            <li><a class='' href='{$vo.typeurl}'><span>· </span>{$vo.typename}</a></li>
+            {/loop}
+          </ul>
+        </li>
+		<li><a href="{geturl tpl="list"/}">新闻中心</a></li>
+        <li><a href="{geturl tpl="about"/}">关于我们</a></li>
+        <li><a href="{geturl tpl="contact"/}">联系我们</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="topPadding"> </div>
+<div id="smallSearchBox">
+  <div class="col-xs-0 col-sm-9 col-md-9"> </div>
+</div>

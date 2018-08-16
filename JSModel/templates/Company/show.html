@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{$toptitle}</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="{$keywords}" />
+    <meta name="description" content="{$description}" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="{$theme_path}/skin/css/bootstrap.css" rel="stylesheet" />
+    <link href="{$theme_path}/skin/css/glide.css" rel="Stylesheet" />
+    <link href="{$theme_path}/skin/css/style.css" rel="Stylesheet" />
+    <!--[if lt IE 9]>
+    <script src="/2001/files/html5shiv.min.js"></script>
+    <script src="/2001/files/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="{$theme_path}/skin/js/jquery.min.js"></script>
+
+    <script src="{$theme_path}/skin/js/bootstrap.js"></script>
+
+    <script src="{$theme_path}/skin/js/jquery.glide.js"></script>
+
+</head>
+<body>
+    
+<header>
+{include file="head.html" }
+</header>
+
+    <div class="bannerImg" style="background-image: url({$theme_path}/skin/images/2.jpg);">
+        <a href="#">
+            <img src="{$theme_path}/skin/images/1.png" /></a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mobile">
+                <div class="positionBox">
+                    <div class="positionBar">
+                        <span class="title">当前位置</span> <span><a href="/">首页</a> > <a href="{$typeurl}">{$typename}</a> > <a href="{$thisurl}">{$title}</a>
+                        </span><span class="moreMenu" id="classification" show-txt="展开更多菜单" hide-txt="关闭更多菜单">
+                            展开更多菜单</span>
+                    </div>
+                </div>
+                <div class="navigationBox">
+                    <div class="list">
+                        <ul id="firstpane">
+                        
+                         {loop type="typename" row="6" type1="son"}
+                            <li><a class='' href='{$vo.typeurl}'>{$vo.typename}</a></li>
+                            {/loop}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div style="width: 100%; overflow: hidden; height: 30px;">
+                </div>
+                <div class="detailTitle" style="border: 0px; background: none">
+                    {$title}</div>
+                <div class="detailTime">
+                    {$postdate}</div>
+                <div class="detailContent">
+                    <div id="leftMedia">
+	
+</div>
+<founder-content>
+<p>{$body}</p>
+<p>
+	（作者：{typename type="name"/}）
+</p>
+</founder-content>
+
+                </div>
+                <div class="otherPageBox">
+                    <div class="col-xs-12 col-sm-8 col-md-9 keyweb">
+                        <div class='otherPage'><div class='prevBox'>{loop type="arclist" row=1 }<a href="{$vo.url}">{$vo.title}</a>{/loop}</div><div class='nextBox'>{loop type="arclist" row=1 }<a href="{$vo.url}">{$vo.title}</a>{/loop}</div></div></div>
+                    <div class="col-xs-12 col-sm-4 col-md-3 keyweb">
+                        <a class="back" href="javascript:history.go(-1)">返回</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<script type="text/javascript" src="{$theme_path}/skin/js/common.js"></script>
+
+<!--电脑版-->
+{include file="kf.html" } 
+<footer>
+{include file="footer.html" } 
+</footer>
+
+</body>
+</html>

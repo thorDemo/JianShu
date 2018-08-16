@@ -138,6 +138,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "JSModel/templates/JSModel/static"),
+    os.path.join(BASE_DIR, "JSModel/templates/Company/static"),
 )
 
 CACHES = {

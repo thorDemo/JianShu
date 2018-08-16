@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{$toptitle}</title>
+	<meta name="description" content="{$description}" />
+	<meta name="keywords" content="{$keywords}" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="{$theme_path}/skin/css/bootstrap.css" rel="stylesheet" />
+    <link href="{$theme_path}/skin/css/glide.css" rel="Stylesheet" />
+    <link href="{$theme_path}/skin/css/detailGlide.css" rel="Stylesheet" />
+    <link href="{$theme_path}/skin/css/lightgallery.css" rel="stylesheet" />
+    <link href="{$theme_path}/skin/css/style.css" rel="Stylesheet" />
+    <script src="{$theme_path}/skin/js/jquery.min.js"></script>
+
+    <script src="{$theme_path}/skin/js/bootstrap.js"></script>
+
+    <script src="{$theme_path}/skin/js/jquery.glide.js"></script>
+
+    <script src="{$theme_path}/skin/js/touch.js"></script>
+
+</head>
+<body>
+    
+<header>
+{include file="head.html" }
+</header>
+
+    <div class="bannerImg" style="background-image: url({$theme_path}/skin/images/2.jpg);">
+        <img src="{$theme_path}/skin/images/1.png" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mobile">
+                <div class="positionBox">
+                    <div class="positionBar">
+                        <span class="title">当前位置</span> <span><a href="/">首页</a> > <a href="{$typeurl}">{$typename}</a> > <a href="{$thisurl}">{产品名称}</a>
+                        </span><span class="moreMenu" id="classification" show-txt="展开更多菜单" hide-txt="关闭更多菜单">
+                            展开更多菜单</span>
+                    </div>
+                </div>
+                <div class="navigationBox">
+                    <div class="list">
+                        <ul id="firstpane">
+                        {loop type="typename" row="6" tpl="product_list"}
+                            <li><a class='' href='{$vo.typeurl}'>{$vo.typename}</a></li>
+                            {/loop}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div style="width: 100%; overflow: hidden; height: 30px;">
+                </div>
+                <div class="col-sm-12 col-md-6 keyweb">
+                    <div class="detailGlide">
+                        <div class="slider">
+                            <ul class="slider__wrapper">
+                                {loop type="arclist" tpl="product_show" image=1 row=3}
+                                <li data-responsive='' data-src='{$vo.pic}' data-sub-html='' class='slider__item real'><a><img src='{$vo.pic}'></a></li>
+                                {/loop}
+                            </ul>
+                        </div>
+                        <div id="detailNav">
+                        </div>
+                    </div>
+
+                    <script type="text/javascript">
+						var glide = $('.slider').glide({navigationImg:true,navigation:"#detailNav"});
+                        $(document).ready(function(){
+                            $('.slider__wrapper').lightGallery({selector:".real"});
+                        });
+                    </script>
+
+                    <script src="{$theme_path}/skin/js/picturefill.min.js"></script>
+
+                    <script src="{$theme_path}/skin/js/lightgallery.js"></script>
+
+                    <script src="{$theme_path}/skin/js/lg-fullscreen.js"></script>
+
+                    <script src="{$theme_path}/skin/js/lg-thumbnail.js"></script>
+
+                    <script src="{$theme_path}/skin/js/lg-video.js"></script>
+
+                    <script src="{$theme_path}/skin/js/lg-autoplay.js"></script>
+
+                    <script src="{$theme_path}/skin/js/lg-zoom.js"></script>
+
+                    <script src="{$theme_path}/skin/js/lg-hash.js"></script>
+
+                    <script src="{$theme_path}/skin/js/lg-pager.js"></script>
+
+                    <script src="{$theme_path}/skin/js/jquery.mousewheel.min.js"></script>
+
+                </div>
+                <div class="col-sm-12 col-md-6 keyweb">
+                    <div class="detailTitle">{产品名称}</div>
+                    <div class="detailParameter">
+					
+<li><span>型号</span>{产品名称}<div style="clear:both;"></div></li>
+
+                        <li><span>密度</span>{固定数字3} kg/m³<div style="clear:both;"></div></li>
+
+                        <li><span>长度</span>{固定数字5} mm<div style="clear:both;"></div></li></div>
+                        <br/>
+                    <div class="detailUrl"><a target=_blank href="http://wpa.qq.com/msgrd?v=3&uin={全局固定数字10}&site=qq&menu=yes">在线咨询</a></div>
+                    
+                </div>
+                <div class="col-sm-12 col-md-12 keyweb">
+                    <div class="detailTitleTxt">
+                        展示详情</div>
+                    <div class="detailContent">
+                        <div id="detailvalue0">
+						{产品说明}
+	<div>
+		<br />
+	</div>
+	<div>
+	</div>
+</div>
+                    </div>
+                </div>
+                <div class="otherPageBox">
+                    <div class="col-xs-12 col-sm-8 col-md-9 keyweb">
+                        <div class='otherPage'><div class='prevBox'>{loop type="arclist" row=2 tpl="product_show"  title="typename"}<a href="{$vo.url}">{$vo.title}</a>&nbsp;&nbsp;&nbsp;{/loop}</div></div></div>
+                    <div class="col-xs-12 col-sm-4 col-md-3 keyweb">
+                        <a class="back" href="javascript:history.go(-1)">返回</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<script type="text/javascript" src="{$theme_path}/skin/js/common.js"></script>
+
+<!--电脑版-->
+{include file="kf.html" } 
+<footer>
+{include file="footer.html" } 
+</footer>
+
+</body>
+</html>
