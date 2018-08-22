@@ -28,7 +28,9 @@ def index(request):
     :param request:
     :return:
     """
-    url = request.build_absolute_uri()
+    url = request.META
+    print('take in')
+    print(url)
     new_article = NewsArticle.objects.order_by('?')[:30]
     template = loader.get_template('JSModel/index.html')
     list_article = ListArticle.objects.order_by('-list_name')[:7]
@@ -105,6 +107,10 @@ def show_page(request, article_id):
     :param article_id:
     :return:
     """
+    path_info = request.META.get('PATH_INFO')
+    host = request.get_host()
+    print('views path_info : %s' % path_info)
+    print('views host : %s' % host)
     try:
         article = NewsArticle.objects.get(re_id__exact=article_id)
         author = ArticleAuthor.objects.get(author_name__exact=article.author)
@@ -147,7 +153,7 @@ def spider_page(request):
     return HttpResponse(template.render(context, request))
 
 
-def spider_data(request, method):
+def spider_data(request, method, url):
     number = []
     res = {}
     spider_name = ['Baiduspider', 'Yisouspider', '360Spider', 'sogou']
