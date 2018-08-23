@@ -30,6 +30,9 @@ class NewsArticle(models.Model):
     def save(self, *args, **kwargs):
         super().save(*args, **kwargs)
 
+    def get_absolute_url(self):
+        return '/show/%s' % self.re_id
+
 
 # 文章列表模型
 class ListArticle(models.Model):
