@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5805b40-8ebb-46d0-ab5f-997a709a5e90" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JianShu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JianShu/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JianShu/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JianShu/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,7 +52,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSModel/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-119">
@@ -69,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
               </folding>
@@ -98,13 +98,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="99" column="1" lean-forward="true" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+            <state relative-caret-position="99">
+              <caret line="80" selection-start-line="80" selection-end-line="89" selection-end-column="1" />
               <folding>
-                <marker date="1535185942939" expanded="true" signature="2580:2798" ph="..." />
+                <marker date="1535372549901" expanded="true" signature="2545:2784" ph="..." />
               </folding>
             </state>
           </provider>
@@ -156,7 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>列表页/手绘%20-%20专题%20-%20简书_files/</find>
       <find>https://www.jianshu.com/u/\w\w\w\w\w\w\w\w\w\w\w\w</find>
       <find>内容页面/为什么你“听过很多道理，却仍过不好这一生”？%20-%20简书_files/</find>
       <find>web-note-ad-side-banner-22096669b4c4b91c3b9266894e951aef.png:1</find>
@@ -186,6 +185,7 @@
       <find>clu</find>
       <find>www.</find>
       <find>show</find>
+      <find>login</find>
     </findStrings>
     <replaceStrings>
       <replace>#</replace>
@@ -247,8 +247,8 @@
         <option value="$PROJECT_DIR$/JSModel/urls.py" />
         <option value="$PROJECT_DIR$/JSModel/models.py" />
         <option value="$PROJECT_DIR$/JSModel/sitemaps.py" />
-        <option value="$PROJECT_DIR$/JianShu/settings.py" />
         <option value="$PROJECT_DIR$/JianShu/urls.py" />
+        <option value="$PROJECT_DIR$/JianShu/settings.py" />
       </list>
     </option>
   </component>
@@ -281,12 +281,13 @@
             <path>
               <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
               <item name="JianShu" type="462c0819:PsiDirectoryNode" />
-              <item name="JianShu" type="462c0819:PsiDirectoryNode" />
+              <item name="JSModel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JianShu" type="b2602c69:ProjectViewProjectNode" />
               <item name="JianShu" type="462c0819:PsiDirectoryNode" />
               <item name="JSModel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -434,20 +435,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532597815592</updated>
-    </task>
-    <task id="LOCAL-00010" summary="基本功能实现">
-      <created>1533351383300</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1533351383300</updated>
-    </task>
-    <task id="LOCAL-00011" summary="基本功能实现">
-      <created>1533351788165</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1533351788165</updated>
     </task>
     <task id="LOCAL-00012" summary="基本功能实现">
       <created>1533376766769</created>
@@ -778,7 +765,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534996515510</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="img">
+      <created>1535360853906</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1535360853906</updated>
+    </task>
+    <task id="LOCAL-00060" summary="admin">
+      <created>1535371999075</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1535371999075</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -808,7 +809,7 @@
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.23104435" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.23104435" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -865,7 +866,9 @@
     <MESSAGE value="多域名配置" />
     <MESSAGE value="robots" />
     <MESSAGE value="sitemap.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="sitemap.xml" />
+    <MESSAGE value="img" />
+    <MESSAGE value="admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -878,9 +881,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/wxb-a216456895eb66c17497dbd3da443cf8.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/static/img/shortcut.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1111,13 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSModel/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://f6c790a9-c67a-464c-9b50-39bc4092d723/schema/station/table/JSModel_articleauthor">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1166,16 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="99" column="1" lean-forward="true" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
-          <folding>
-            <marker date="1535185942939" expanded="true" signature="2580:2798" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/templates/JSModel/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1193,16 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSModel/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
@@ -1210,6 +1183,43 @@
           <folding>
             <element signature="e#0#52#0" expanded="true" />
             <element signature="e#702#800#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/django/contrib/admin/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4042">
+          <caret line="364" lean-forward="true" selection-start-line="364" selection-end-line="364" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JianShu/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSModel/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JianShu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="80" selection-start-line="80" selection-end-line="89" selection-end-column="1" />
+          <folding>
+            <marker date="1535372549901" expanded="true" signature="2545:2784" ph="..." />
           </folding>
         </state>
       </provider>
